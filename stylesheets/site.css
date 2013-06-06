@@ -1,0 +1,798 @@
+html { font-size: 62.5%; }
+
+/* === Fonts === ================================================= */
+/* Example use: @extend .basefont-book */
+.basefont, .basefont-light, .newdesign .department-nav-list, .newdesign .candidate-review-phase-select li, .newdesign .candidate-review-phase-select h1, .newdesign a.add-a, .basefont-book, .newdesign .app-nav li, .newdesign .app-search input, .newdesign .department-edit, .newdesign input.add-a, .newdesign .candidate-review-table th, .newdesign .rating-control div.add-star-notes textarea, .newdesign .job-status-hired-banner, .newdesign .guide-status-scheuling #guide-schedule-date, .newdesign .comment-form .comment-text, .newdesign .dk_container.dk_theme_sorting, .newdesign, .basefont-semibold, .newdesign .btn, .newdesign .app-nav a.is-current, .newdesign .department-summary-list p, .newdesign .status-action-menu ul li, .newdesign .department-action-set h1, .newdesign .action-link-strong, .newdesign .add-job-team-member-link, .newdesign .add-task-link, .newdesign .show-on-career-copy, .newdesign .collapsible-heading, .newdesign .member-header h2, .newdesign .department-details h1, .newdesign .job-details-highlights, .newdesign .incident-summary-callout, .newdesign .candidate-job-status-review-header h1, .newdesign .candidate-job-recommended-tests h1, .newdesign .quickview-toolbar h1, .newdesign .quickview-toolbar span.applied-from b, .newdesign .quickview-documentbar .upload-guide-notes h3, .newdesign .uploaded-guide-notes h3, .newdesign .comments h1, .newdesign .comment-form label, .newdesign .comment-notifications-message p, .basefont-bold, .basefont-display-light, .newdesign .department-summary > h1 { font-family: "etica", "Helvetica Neue", Helvetica, Arial, sans-serif; font-style: normal; font-weight: 300; }
+
+.basefont-light, .newdesign .department-nav-list, .newdesign .candidate-review-phase-select li, .newdesign .candidate-review-phase-select h1, .newdesign a.add-a { font-weight: 200; }
+
+.basefont-book, .newdesign .app-nav li, .newdesign .app-search input, .newdesign .department-edit, .newdesign input.add-a, .newdesign .candidate-review-table th, .newdesign .rating-control div.add-star-notes textarea, .newdesign .job-status-hired-banner, .newdesign .guide-status-scheuling #guide-schedule-date, .newdesign .comment-form .comment-text, .newdesign .dk_container.dk_theme_sorting, .newdesign { font-weight: 300; }
+
+.basefont-semibold, .newdesign .btn, .newdesign .app-nav a.is-current, .newdesign .department-summary-list p, .newdesign .status-action-menu ul li, .newdesign .department-action-set h1, .newdesign .action-link-strong, .newdesign .add-job-team-member-link, .newdesign .add-task-link, .newdesign .show-on-career-copy, .newdesign .collapsible-heading, .newdesign .member-header h2, .newdesign .department-details h1, .newdesign .job-details-highlights, .newdesign .incident-summary-callout, .newdesign .candidate-job-status-review-header h1, .newdesign .candidate-job-recommended-tests h1, .newdesign .quickview-toolbar h1, .newdesign .quickview-toolbar span.applied-from b, .newdesign .quickview-documentbar .upload-guide-notes h3, .newdesign .uploaded-guide-notes h3, .newdesign .comments h1, .newdesign .comment-form label, .newdesign .comment-notifications-message p { font-weight: 600; }
+
+.basefont-bold { font-weight: 700; }
+
+.basefont-display-light, .newdesign .department-summary > h1 { font-family: "etica-display", "Helvetica Neue", Helvetica, Arial, sans-serif; font-weight: 200; }
+
+/* === Font Sizes === ================================================= */
+/* All font sizes should be provided as rems, with a  pixel fallback for older browsers. */
+/* Example use: @include font-size(14) */
+/* ------------------------------------------------------------- Sass CSS3 Mixins! The Cross-Browser CSS3 Sass Library By: Matthieu Aussaguel, http://www.mynameismatthieu.com, @matthieu_tweets
+ List of CSS3 Sass Mixins File to be @imported and @included as you need
+ The purpose of this library is to facilitate the use of CSS3 on different browsers avoiding HARD TO READ and NEVER ENDING css files
+ note: All CSS3 Properties are being supported by Safari 5 more info: http://www.findmebyip.com/litmus/#css3-properties
+ Mixins available: -   background-gradient     - arguments: Start Color: #3C3C3C, End Color: #999999 -   background-size         - arguments: Width: 100%, Height: 100% -   border-radius           - arguments: Radius: 5px -   border-radius-separate  - arguments: Top Left: 5px, Top Left: 5px, Bottom Left: 5px, Bottom Right: 5px -   box                     - arguments: Orientation: horizontal, Pack: center, Align: center -   box-rgba                - arguments: R: 60, G: 3, B: 12, Opacity: 0.23, Color: #3C3C3C -   box-shadow              - arguments: X: 2px, Y: 2px, Blur: 5px, Color: rgba(0,0,0,.4) -   box-sizing              - arguments: Type: border-box -   columns                 - arguments: Count: 3, Gap: 10 -   double-borders          - arguments: Color One: #3C3C3C, Color Two: #999999, Radius: 0 -   flex                    - arguments: Value: 1 -   flip                    - arguments: ScaleX: -1 -   font-face               - arguments: Font Family: myFont, Eot File Src: myFont.eot, Woff File Src: myFont.woff, Ttf File Src: myFont.ttf -   opacity                 - arguments: Opacity: 0.5 -   outline radius          - arguments: Radius: 5px -   resize                  - arguments: Direction: both -   rotate                  - arguments: Degree: 0, M11: 0, M12: 0, M21: 0, M22: 0 CSS Matrix Rotation Calculator http://www.boogdesign.com/examples/transforms/matrix-calculator.html -   text-shadow             - arguments: X: 2px, Y: 2px, Blur: 5px, Color: rgba(0,0,0,.4) -   transform               - arguments: Parameters: null -   transition              - arguments: What: all, Length: 1s, Easing: ease-in-out -   triple-borders          - arguments: Color One: #3C3C3C, Color Two: #999999, Color Three: #000000, Radius: 0
+
+------------------------------------------------------------- */
+/* BACKGROUND GRADIENT */
+/* BACKGROUND SIZE */
+/* BORDER RADIUS */
+/* BOX */
+/* BOX RGBA */
+/* BOX SHADOW */
+/* BOX SIZING */
+/* COLUMNS */
+/* DOUBLE BORDERS */
+/* FLEX */
+/* FLIP */
+/* FONT FACE */
+/* OPACITY */
+/* OUTLINE RADIUS */
+/* RESIZE */
+/* ROTATE*/
+/* TEXT SHADOW */
+/* TRANSFORM  */
+/* TRANSITION */
+/* TRIPLE BORDERS */
+/* === Sprites === ================================================= */
+.sprite, .newdesign .btn-hire, .newdesign .btn-download-document, .newdesign .btn-attach-files, .newdesign .action-link, .newdesign .task-checkbox, .newdesign .candidate-review-display-select a, .newdesign ul.add-a-task a.let-everyone-see-task, .newdesign ul.add-a-task a.submit-task, .newdesign .candidate-review-table.is-display-1 .col-heading, .newdesign .candidate-review-table.is-display-1 .document-collection, .newdesign .candidate-review-button, .newdesign .rating-control > span, .newdesign .rating-control div.add-star-notes a.submit-star-note, .newdesign .member-header-photo, .newdesign .job-highlight, .newdesign .candidate-job-recommended-tests .test-preview-link, .newdesign .candidate-job-status-review-phase .is-complete, .newdesign .quickview-review-change-link, .newdesign .guide-status-scheuling #guide-schedule-date, .newdesign .btn-print-guide, .newdesign .file, .newdesign .multiselect-option { background-image: url(../images/general/hireology-sprites.png); background-repeat: no-repeat; }
+
+/* fancyBox v2.1.0 fancyapps.com | fancyapps.com/fancybox/#license */
+.fancybox-wrap, .fancybox-skin, .fancybox-outer, .fancybox-inner, .fancybox-image, .fancybox-wrap iframe, .fancybox-wrap object, .fancybox-nav, .fancybox-nav span, .fancybox-tmp { padding: 0; margin: 0; border: 0; outline: none; vertical-align: top; }
+
+.fancybox-wrap { position: absolute; top: 0; left: 0; z-index: 8020; }
+
+.fancybox-skin { position: relative; background: #fff; color: #444; text-shadow: none; -webkit-border-radius: 4px; -moz-border-radius: 4px; border-radius: 4px; }
+
+.fancybox-opened { z-index: 8030; }
+
+.fancybox-opened .fancybox-skin { -webkit-box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5); -moz-box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5); box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5); }
+
+.fancybox-outer, .fancybox-inner { position: relative; }
+
+.fancybox-inner { overflow: hidden; }
+
+.fancybox-type-iframe .fancybox-inner { -webkit-overflow-scrolling: touch; }
+
+.fancybox-error { color: #444; font: 14px/20px "Helvetica Neue", Helvetica, Arial, sans-serif; margin: 0; padding: 15px; white-space: nowrap; }
+
+.fancybox-image, .fancybox-iframe { display: block; width: 100%; height: 100%; }
+
+.fancybox-image { max-width: 100%; max-height: 100%; }
+
+#fancybox-loading, .fancybox-close, .fancybox-prev span, .fancybox-next span { background-image: url("fancybox/images/fancybox_sprite.png"); }
+
+#fancybox-loading { position: fixed; top: 50%; left: 50%; margin-top: -22px; margin-left: -22px; background-position: 0 -108px; opacity: 0.8; cursor: pointer; z-index: 8060; }
+
+#fancybox-loading div { width: 44px; height: 44px; background: url("fancybox/images/fancybox_loading.gif") center center no-repeat; }
+
+.fancybox-close { position: absolute; top: -18px; right: -18px; width: 36px; height: 36px; cursor: pointer; z-index: 8040; }
+
+.fancybox-nav { position: absolute; top: 0; width: 40%; height: 100%; cursor: pointer; text-decoration: none; background: transparent url("fancybox/images/blank.gif"); /* helps IE */ -webkit-tap-highlight-color: rgba(0, 0, 0, 0); z-index: 8040; }
+
+.fancybox-prev { left: 0; }
+
+.fancybox-next { right: 0; }
+
+.fancybox-nav span { position: absolute; top: 50%; width: 36px; height: 34px; margin-top: -18px; cursor: pointer; z-index: 8040; visibility: hidden; }
+
+.fancybox-prev span { left: 10px; background-position: 0 -36px; }
+
+.fancybox-next span { right: 10px; background-position: 0 -72px; }
+
+.fancybox-nav:hover span { visibility: visible; }
+
+.fancybox-tmp { position: absolute; top: -9999px; left: -9999px; visibility: hidden; }
+
+/* Overlay helper */
+.fancybox-lock { overflow: hidden; }
+
+.fancybox-overlay { position: absolute; top: 0; left: 0; overflow: hidden; display: none; z-index: 8010; background: url("fancybox/images/fancybox_overlay.png"); }
+
+.fancybox-overlay-fixed { position: fixed; bottom: 0; right: 0; }
+
+.fancybox-lock .fancybox-overlay { overflow: auto; overflow-y: scroll; }
+
+/* Title helper */
+.fancybox-title { visibility: hidden; font: normal 13px/20px "Helvetica Neue", Helvetica, Arial, sans-serif; position: relative; text-shadow: none; z-index: 8050; }
+
+.fancybox-opened .fancybox-title { visibility: visible; }
+
+.fancybox-title-float-wrap { position: absolute; bottom: 0; right: 50%; margin-bottom: -35px; z-index: 8050; text-align: center; }
+
+.fancybox-title-float-wrap .child { display: inline-block; margin-right: -100%; padding: 2px 20px; background: transparent; /* Fallback for web browsers that doesn't support RGBa */ background: rgba(0, 0, 0, 0.8); -webkit-border-radius: 15px; -moz-border-radius: 15px; border-radius: 15px; text-shadow: 0 1px 2px #222222; color: #FFF; font-weight: bold; line-height: 24px; white-space: nowrap; }
+
+.fancybox-title-outside-wrap { position: relative; margin-top: 10px; color: #fff; }
+
+.fancybox-title-inside-wrap { padding-top: 10px; }
+
+.fancybox-title-over-wrap { position: absolute; bottom: 0; left: 0; color: #fff; padding: 10px; background: #000; background: rgba(0, 0, 0, 0.8); }
+
+.newdesign { /* http://meyerweb.com/eric/tools/css/reset/ v2.0 | 20110126 License: none (public domain)
+*/ /* HTML5 display-role reset for older browsers */ /* === Natural Box Model === ================================================= */ /* === HTML5 Elements === ================================================= */ /* === Links === ================================================= */ /* Improve readability when focused and hovered in all browsers */ /* === Forms === ================================================= */ /* Indicate that 'label' will shift focus to the associated form element */ /* Consistent box sizing and appearance */ /* Allow only vertical resizing of textares */ /* Removes webkits focus glow */ /* === Tables === ================================================= */ /* === Image Replacement === ================================================= */ /* Example use: @extend .ir */ /* === Clear Floats === ================================================= */ /* Example use: @extend .clearfix */ /* === Visual Helpers === ================================================= */ /* Hide only visually, but have it available for screenreaders: */ /* === Colors === ================================================= */ /* === Links === ================================================= */ /* === Text Selection === ================================================= */ /* === Common Layout === ================================================= */ /* === Masthead === ================================================= */ /* === Department Content === ================================================= */ /* === Department Actions === ================================================= */ /* === Generic Button Styles === ================================================= */ /* Specific Reusable Buttons */ /* === App Navigation === ================================================= */ /* === App Back Button === ================================================= */ /* === App Settings === ================================================= */ /* === App Search === ================================================= */ /* === Department Summary === ================================================= */ /* === Department Edit Button === ================================================= */ /* === Email and Phone Links === ================================================= */ /* === Status Indicators === ================================================= */ /* === Statuses === ================================================= */ /* === Scores === ================================================= */ /* === Department Nav List === ================================================= */ /* === Department Action Set === ================================================= */ /* Side Link */ /*.action-link-sub-action:hover {
+	background-color: $dark-text;
+}*/ /* === Actions === ================================================= */ /* === Task Items === ================================================= */ /* === Department Action Set Strong === ================================================= */ /* === Candidate Review Display Select === ================================================= */ /* === Display Types === ================================================= */ /* === Candidate Review Phase Select === ================================================= */ /* === Phase Numbers === ================================================= */ /* === Add Job & Candidate Button === ================================================= */ /* === Candidate Review Table === ================================================= */ /* === Hired and Inactive Candidates === ================================================= */ /* === Hired Candidates Table === ================================================= */ /* === Inactive Candidates === ================================================= */ /* === Column Defaults === ================================================= */ /* === Hiring Processes === ================================================= */ /* === Phase Columns === ================================================= */ /* === Display Mode === ================================================= */ /* === Buttons === ================================================= */ /* Reject */ /* Identify */ /* Interview */ /* Verify */ /* === Scored === ================================================= */ /* Default score coloring */ /* Overrides for score color */ /* === Status Descriptors === ================================================= */ /* === Candidates Name === ================================================= */ /* === Email and Phone Contact === ================================================= */ /* Always show the contact buttons on touch devices */ /* Custom Position for Display Modes */ /* === Labeling based on Candidate Job Status === ================================================= */ /* === Candidate Status Indicators === ================================================= */ /* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * DataTables features */ /* Pagination nested */ /* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * DataTables display */ /* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * DataTables sorting */ /* Overrides for Full table view */ /* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * DataTables row classes */ /* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * Misc */ /* Sorting classes for columns */ /* For the standard odd/even */ /* For the Conditional-CSS grading rows */ /* 	Colour calculations (based off the main row colours) Level 1:
+		dd > c4
+		ee > d5
+	Level 2:
+	  dd > d1
+	  ee > e2 */ /* Row highlighting example */ /* KeyTable */ /* === Candidate Rating Control === ================================================= */ /* === Hireology Tooltip === ================================================= */ /* === Department Details === ================================================= */ /* File Attachments */ /* === Job Details === ================================================= */ /* === Candidate Details === ================================================= */ /* === Department History === ================================================= */ /* === Incident Graphis === ================================================= */ /* === Candidate Job Status Review === ================================================= */ /* Main Header */ /* Recommended Tests */ /* === Phases === ================================================= */ /* Phase Header */ /* === Quickview Toolbar === ================================================= */ /* Used by all quickviews to for document-wide editing */ /* Review Controls */ /* Candidate Previous and Next Buttons */ /* Guide Scheduling */ /* Done Button */ /* === Quickview Documents Bar === ================================================= */ /* Used by all document quickviews for switching between documents, downloading, and uploading new documents */ /* Print Guide */ /* Uploading Notes */ /* === Guide Content === ================================================= */ /* === Files === ================================================= */ /* === File Types === ================================================= */ /* === Comments === ================================================= */ /* === Comment Form === ================================================= */ /* === Comment Files === ================================================= */ /* === Multiselect === ================================================= */ /** Hireology Review Candidate Sorting Dropdown  See the readme for themeing help */ /* One container to bind them... */ /* Opens the dropdown and holds the menu label */ /* Applied whenever the dropdown is open */ /* The outer container of the options */ /* Inner container for options, this is what makes the scrollbar possible. */ /* Set a max-height on the options inner */ /******  End Theme ******/ /***** Critical to the continued enjoyment of working dropdowns ******/ /***** End Critical to the continued enjoyment of working dropdowns ******/ /** Base container **/ /** Popup Container for Kalendae.Input **/ /** Kalendae.Input's popup close button **/ /** Month Container **/ /** Month Separator **/ /** Month Title Row **/ /** Month and Year Buttons **/ /** Remove extra buttons when calendar shows multiple months **/ /** Force specific width for month container contents **/ /** Hide unusable buttons **/ /** Week columns and day cells **/ /** Today **/ /** Selectable but not selected day  **/ /** Selected day, when outside the selectable area **/ /** Selected day, when inside the selectable area **/ /** Days between the start and end points on a range, outside of the selectable area **/ /** Days between the start and end points on a range, inside of the selectable area **/ /** Selectable day, hovered **/ /** Days outside of the month view (before the first day of the month, after the last day of the month) **/ /*-------------------------------------IE8 ONLY CODE BELOW THIS LINE--------------------------------------------*/ min-width: 68em; font-size: 14px; font-size: 1.4rem; line-height: 1.4; color: #333333; }
+.newdesign html, .newdesign body, .newdesign div, .newdesign span, .newdesign applet, .newdesign object, .newdesign iframe, .newdesign h1, .newdesign h2, .newdesign h3, .newdesign h4, .newdesign h5, .newdesign h6, .newdesign p, .newdesign blockquote, .newdesign pre, .newdesign a, .newdesign abbr, .newdesign acronym, .newdesign address, .newdesign big, .newdesign cite, .newdesign code, .newdesign del, .newdesign dfn, .newdesign em, .newdesign img, .newdesign ins, .newdesign kbd, .newdesign q, .newdesign s, .newdesign samp, .newdesign small, .newdesign strike, .newdesign strong, .newdesign sub, .newdesign sup, .newdesign tt, .newdesign var, .newdesign b, .newdesign u, .newdesign i, .newdesign center, .newdesign dl, .newdesign dt, .newdesign dd, .newdesign ol, .newdesign ul, .newdesign li, .newdesign fieldset, .newdesign form, .newdesign label, .newdesign legend, .newdesign table, .newdesign caption, .newdesign tbody, .newdesign tfoot, .newdesign thead, .newdesign tr, .newdesign th, .newdesign td, .newdesign article, .newdesign aside, .newdesign canvas, .newdesign details, .newdesign embed, .newdesign figure, .newdesign figcaption, .newdesign footer, .newdesign header, .newdesign hgroup, .newdesign menu, .newdesign nav, .newdesign output, .newdesign ruby, .newdesign section, .newdesign summary, .newdesign time, .newdesign mark, .newdesign audio, .newdesign video { margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit; vertical-align: baseline; }
+.newdesign article, .newdesign aside, .newdesign details, .newdesign figcaption, .newdesign figure, .newdesign footer, .newdesign header, .newdesign hgroup, .newdesign menu, .newdesign nav, .newdesign section { display: block; }
+.newdesign body { line-height: 1; }
+.newdesign ol, .newdesign ul { list-style: none; }
+.newdesign blockquote, .newdesign q { quotes: none; }
+.newdesign blockquote:before, .newdesign blockquote:after, .newdesign q:before, .newdesign q:after { content: ''; content: none; }
+.newdesign table { border-collapse: collapse; border-spacing: 0; }
+.newdesign * { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+.newdesign article, .newdesign aside, .newdesign details, .newdesign figcaption, .newdesign figure, .newdesign footer, .newdesign header, .newdesign hgroup, .newdesign nav, .newdesign section { display: block; }
+.newdesign audio, .newdesign canvas, .newdesign video { display: inline-block; *display: inline; *zoom: 1; }
+.newdesign audio:not([controls]) { display: none; }
+.newdesign [hidden] { display: none; }
+.newdesign a:focus { outline: thin dotted; }
+.newdesign a:hover, .newdesign a:active { outline: 0; }
+.newdesign label { cursor: pointer; }
+.newdesign input[type="checkbox"], .newdesign input[type="radio"] { box-sizing: border-box; padding: 0; *width: 13px; *height: 13px; }
+.newdesign input[type="search"] { -webkit-appearance: textfield; -moz-box-sizing: content-box; -webkit-box-sizing: content-box; box-sizing: content-box; }
+.newdesign input[type="search"]::-webkit-search-decoration, .newdesign input[type="search"]::-webkit-search-cancel-button { -webkit-appearance: none; }
+.newdesign textarea { overflow: auto; vertical-align: top; resize: vertical; }
+.newdesign textarea, .newdesign input { outline: none; }
+.newdesign table { border-collapse: collapse; border-spacing: 0; }
+.newdesign td { vertical-align: top; }
+.newdesign .ir, .newdesign .app-back, .newdesign .task-checkbox, .newdesign .candidate-review-display-select a, .newdesign .candidate-review-table.is-display-1 .col-heading, .newdesign .candidate-review-contact-email, .newdesign .candidate-review-contact-phone, .newdesign .rating-control > span, .newdesign .candidate-job-status-review-controls .reject-candidate-button, .newdesign .candidate-job-status-review-controls .unreject-candidate-button, .newdesign .candidate-job-recommended-tests .test-preview-link, .newdesign .quickview-toolbar-review-controls .reject-candidate-button, .newdesign .quickview-toolbar-review-controls .unreject-candidate-button, .newdesign .quickview-review-change-link { text-indent: -9999px; }
+.newdesign .clearfix, .newdesign .department-summary-list, .newdesign .department-nav-list, .newdesign .department-action-set li, .newdesign .candidate-review-display-select, .newdesign .candidate-review-phase-select, .newdesign .candidate-review-table th, .newdesign .candidate-review-table td, .newdesign .dataTables_wrapper, .newdesign .dataTables_paginate, .newdesign .rating-control, .newdesign .member-header, .newdesign .job-details-highlights, .newdesign .candidate-job-status-review-controls, .newdesign .candidate-job-status-review-phase li, .newdesign .quickview-toolbar, .newdesign .quickview-documentbar, .newdesign .comment-form, .newdesign .multiselect { *zoom: 1; }
+.newdesign .clearfix:before, .newdesign .department-summary-list:before, .newdesign .department-nav-list:before, .newdesign .department-action-set li:before, .newdesign .candidate-review-display-select:before, .newdesign .candidate-review-phase-select:before, .newdesign .candidate-review-table th:before, .newdesign .candidate-review-table td:before, .newdesign .dataTables_wrapper:before, .newdesign .dataTables_paginate:before, .newdesign .rating-control:before, .newdesign .member-header:before, .newdesign .job-details-highlights:before, .newdesign .candidate-job-status-review-controls:before, .newdesign .candidate-job-status-review-phase li:before, .newdesign .quickview-toolbar:before, .newdesign .quickview-documentbar:before, .newdesign .comment-form:before, .newdesign .multiselect:before, .newdesign .clearfix:after, .newdesign .department-summary-list:after, .newdesign .department-nav-list:after, .newdesign .department-action-set li:after, .newdesign .candidate-review-display-select:after, .newdesign .candidate-review-phase-select:after, .newdesign .candidate-review-table th:after, .newdesign .candidate-review-table td:after, .newdesign .dataTables_wrapper:after, .newdesign .dataTables_paginate:after, .newdesign .rating-control:after, .newdesign .member-header:after, .newdesign .job-details-highlights:after, .newdesign .candidate-job-status-review-controls:after, .newdesign .candidate-job-status-review-phase li:after, .newdesign .quickview-toolbar:after, .newdesign .quickview-documentbar:after, .newdesign .comment-form:after, .newdesign .multiselect:after { content: ""; display: table; }
+.newdesign .clearfix:after, .newdesign .department-summary-list:after, .newdesign .department-nav-list:after, .newdesign .department-action-set li:after, .newdesign .candidate-review-display-select:after, .newdesign .candidate-review-phase-select:after, .newdesign .candidate-review-table th:after, .newdesign .candidate-review-table td:after, .newdesign .dataTables_wrapper:after, .newdesign .dataTables_paginate:after, .newdesign .rating-control:after, .newdesign .member-header:after, .newdesign .job-details-highlights:after, .newdesign .candidate-job-status-review-controls:after, .newdesign .candidate-job-status-review-phase li:after, .newdesign .quickview-toolbar:after, .newdesign .quickview-documentbar:after, .newdesign .comment-form:after, .newdesign .multiselect:after { clear: both; }
+.newdesign .nonessential, .newdesign .candidate-review-table.is-display-0 .button-title, .newdesign .candidate-review-table.is-display-1 .button-title { border: 0; clip: rect(0 0 0 0); height: 1px; margin: -1px; overflow: hidden; padding: 0; position: absolute; width: 1px; }
+.newdesign .loading { position: absolute; background: white url(/images/indicator.gif) center center no-repeat; z-index: 100; filter: alpha(opacity=50); -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)"; -moz-opacity: 0.5; -khtml-opacity: 0.5; opacity: 0.5; }
+.newdesign a { color: #333333; }
+.newdesign a:hover { color: #333333; }
+.newdesign ::-moz-selection { background: #4bcc00; color: #fff; text-shadow: none; }
+.newdesign ::selection { background: #4bcc00; color: #fff; text-shadow: none; }
+.newdesign .common-layout, .newdesign #masthead, .newdesign #department-nav, .newdesign #department-content, .newdesign #department-actions { padding-left: 5%; padding-right: 3%; }
+.newdesign #masthead { padding-bottom: 2em; position: relative; background-color: #f2f2f2; }
+.newdesign #department-nav { margin-bottom: 2em; background-color: #323232; }
+.newdesign #department-content { float: left; width: 78%; padding-bottom: 5em; }
+.newdesign #department-actions { width: 20%; padding-left: 0; float: right; }
+.newdesign .btn { min-width: 165px; padding: 0.75em 1em 0.7em 1em; background-color: #009dff; background-repeat: no-repeat; -moz-border-radius: 2px; -webkit-border-radius: 2px; border-radius: 2px; -moz-box-shadow: 0 2px 6px rgba(0, 0, 0, 0.22), inset 0 0 1px rgba(255, 255, 255, 0.75); -o-box-shadow: 0 2px 6px rgba(0, 0, 0, 0.22), inset 0 0 1px rgba(255, 255, 255, 0.75); -webkit-box-shadow: 0 2px 6px rgba(0, 0, 0, 0.22), inset 0 0 1px rgba(255, 255, 255, 0.75); box-shadow: 0 2px 6px rgba(0, 0, 0, 0.22), inset 0 0 1px rgba(255, 255, 255, 0.75); border: solid 1px #0084d6; text-align: center; color: #fff; font-size: 14px; font-size: 1.4rem; text-shadow: 0 1px 0 rgba(0, 0, 0, 0.4); text-decoration: none; cursor: pointer; }
+.newdesign .btn:hover { color: #fff; background-color: #1aa7ff; }
+.newdesign .btn-small { padding: 0.5em 1em 0.5em 1em; font-size: 13px; font-size: 1.3rem; -moz-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.1), inset 0 0 1px rgba(255, 255, 255, 0.75); -o-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.1), inset 0 0 1px rgba(255, 255, 255, 0.75); -webkit-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.1), inset 0 0 1px rgba(255, 255, 255, 0.75); box-shadow: 0 1px 6px rgba(0, 0, 0, 0.1), inset 0 0 1px rgba(255, 255, 255, 0.75); }
+.newdesign .btn-short { padding: 0.2em 1em 0.2em 1em; font-size: 13px; font-size: 1.3rem; -moz-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.1), inset 0 0 1px rgba(255, 255, 255, 0.75); -o-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.1), inset 0 0 1px rgba(255, 255, 255, 0.75); -webkit-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.1), inset 0 0 1px rgba(255, 255, 255, 0.75); box-shadow: 0 1px 6px rgba(0, 0, 0, 0.1), inset 0 0 1px rgba(255, 255, 255, 0.75); }
+.newdesign .btn-hire { min-width: 6.3em; padding-left: 1.8em; background-color: #4bcc00; background-position: 4px -6747px; /* High-res sprites */ border-color: #44b800; }
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 144dpi) { .newdesign .btn-hire { /* Ideally these would be used with @extend .sprite-highres, but Sass doesn't currently support @extend in Media Queries */ background-image: url(../images/general/hireology-sprites@2x.png); -moz-background-size: 100px auto; -webkit-background-size: 100px auto; background-size: 100px auto; } }
+.newdesign .btn-hire:hover { color: #fff; background-color: #51db00; }
+.newdesign .btn-hire.is-hired { background-color: #fff; background-position: 4px -6697px; color: #4bcc00; text-shadow: none; }
+.newdesign .btn-download-document { padding-left: 2.4em; background-position: 8px -1094px; /* High-res sprites */ }
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 144dpi) { .newdesign .btn-download-document { /* Ideally these would be used with @extend .sprite-highres, but Sass doesn't currently support @extend in Media Queries */ background-image: url(../images/general/hireology-sprites@2x.png); -moz-background-size: 100px auto; -webkit-background-size: 100px auto; background-size: 100px auto; } }
+.newdesign .btn-quickview-done, .newdesign .btn-quickview-send-survey, .newdesign .btn-quickview-send-application { border: solid 1px #b8b8b8; text-shadow: none; background: #e6e7e8; color: #333333; }
+.newdesign .btn-quickview-done:hover, .newdesign .btn-quickview-send-survey:hover, .newdesign .btn-quickview-send-application:hover { background-color: #eeeff0; color: #333333; }
+.newdesign .btn-attach-files { position: relative; border: solid 1px #b8b8b8; text-shadow: none; background-color: #e6e7e8; background-position: 0.9em -550px; /* High-res sprites */ color: #333333; overflow: hidden; zoom: 1; padding-left: 2em; }
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 144dpi) { .newdesign .btn-attach-files { /* Ideally these would be used with @extend .sprite-highres, but Sass doesn't currently support @extend in Media Queries */ background-image: url(../images/general/hireology-sprites@2x.png); -moz-background-size: 100px auto; -webkit-background-size: 100px auto; background-size: 100px auto; } }
+.newdesign .btn-attach-files input { position: absolute; top: 0; right: 0; border-width: 0 0 1000px 200px; border-style: solid; border-color: transparent; cursor: pointer; z-index: 50; filter: alpha(opacity=0); -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)"; -moz-opacity: 0; -khtml-opacity: 0; opacity: 0; }
+.newdesign .btn-attach-files:hover { background-color: #eeeff0; color: #333333; }
+.newdesign .app-nav { float: left; padding: 0 0.5em; margin-bottom: 3em; background-color: #fff; -webkit-box-shadow: 0 0 4px #bbbbbb; -moz-box-shadow: 0 0 4px #bbbbbb; box-shadow: 0 0 4px #bbbbbb; }
+.newdesign .app-nav li { float: left; text-align: center; font-size: 13px; font-size: 1.3rem; }
+.newdesign .app-nav a { display: inline-block; padding: 0.95em 1em; padding-bottom: 20px; margin-bottom: -9px; text-decoration: none; color: #9b9b9b; }
+.newdesign .app-nav a:hover, .newdesign .app-nav a.is-current { color: #333333; }
+.newdesign .app-nav a.is-current { background: url(../images/general/app-nav-current.png) no-repeat center bottom; }
+.newdesign .app-back { display: block; position: absolute; left: 0; top: 6.0em; width: 1.6em; height: 2.5em; -webkit-border-top-left-radius: 0; -webkit-border-top-right-radius: 2.5em; -webkit-border-bottom-right-radius: 2.5em; -webkit-border-bottom-left-radius: 0; -moz-border-radius-topleft: 0; -moz-border-radius-topright: 2.5em; -moz-border-radius-bottomright: 2.5em; -moz-border-radius-bottomleft: 0; border-top-left-radius: 0; border-top-right-radius: 2.5em; border-bottom-right-radius: 2.5em; border-bottom-left-radius: 0; background: #4bcc00 url(../images/general/app-back-arrow.png) no-repeat 0.3em center; -moz-transition: all 0.1s; -o-transition: all 0.1s; -webkit-transition: all 0.1s; -ms-transition: all 0.1s; transition: all 0.1s; }
+.newdesign .app-back:hover { background-color: #333333; }
+.newdesign .app-settings-nav { float: right; height: 3em; }
+.newdesign .app-settings-nav ul { display: none; width: 8em; position: absolute; z-index: 900; margin-top: 0; padding: 0.8em 0; background-color: #fff; -webkit-border-top-left-radius: 0; -webkit-border-top-right-radius: 2px; -webkit-border-bottom-right-radius: 2px; -webkit-border-bottom-left-radius: 2px; -moz-border-radius-topleft: 0; -moz-border-radius-topright: 2px; -moz-border-radius-bottomright: 2px; -moz-border-radius-bottomleft: 2px; border-top-left-radius: 0; border-top-right-radius: 2px; border-bottom-right-radius: 2px; border-bottom-left-radius: 2px; -webkit-box-shadow: 0 0 3px rgba(0, 0, 0, 0.2); -moz-box-shadow: 0 0 3px rgba(0, 0, 0, 0.2); box-shadow: 0 0 3px rgba(0, 0, 0, 0.2); }
+.newdesign .app-settings-nav a { display: block; padding: 0.2em 1em 0.2em 1em; font-size: 13px; font-size: 1.3rem; text-decoration: none; color: #333333; }
+.newdesign .app-settings-nav a:hover { text-decoration: underline; }
+.newdesign .app-settings-nav:hover ul { display: block; }
+.newdesign .app-settings-nav-heading { margin-top: 0.9em; padding: 0.4em 1em; padding-left: 2em; background: url(../images/general/app-settings-nav.png) no-repeat 0.6em 46%; cursor: pointer; color: #4bcc00; -webkit-box-shadow: 0 0 2px #f2f2f2; -moz-box-shadow: 0 0 2px #f2f2f2; box-shadow: 0 0 2px #f2f2f2; -webkit-border-top-left-radius: 2px; -webkit-border-top-right-radius: 2px; -webkit-border-bottom-right-radius: 0; -webkit-border-bottom-left-radius: 0; -moz-border-radius-topleft: 2px; -moz-border-radius-topright: 2px; -moz-border-radius-bottomright: 0; -moz-border-radius-bottomleft: 0; border-top-left-radius: 2px; border-top-right-radius: 2px; border-bottom-right-radius: 0; border-bottom-left-radius: 0; -moz-transition: all 0.2s; -o-transition: all 0.2s; -webkit-transition: all 0.2s; -ms-transition: all 0.2s; transition: all 0.2s; }
+.newdesign .app-settings-nav:hover .app-settings-nav-heading { -webkit-box-shadow: 0 0 2px #777777; -moz-box-shadow: 0 0 2px #777777; box-shadow: 0 0 2px #777777; color: #333333; }
+.newdesign .app-search { float: right; margin-top: 1.3em; margin-left: 1em; }
+.newdesign .app-search input { width: 15em; margin-right: 1.1em; margin-top: -0.4em; padding-top: 0.4em; padding-left: 0.3em; padding-bottom: 0.5em; padding-right: 2.5em; background: none; border: none; float: right; background-color: rgba(255, 255, 255, 0); background: url(../images/general/app-search.png) no-repeat 98% 48%; border-bottom: 1px solid #bbbbbb; font-size: inherit; -moz-transition: all 0.2s; -o-transition: all 0.2s; -webkit-transition: all 0.2s; -ms-transition: all 0.2s; transition: all 0.2s; }
+.newdesign .app-search input:focus { background-color: rgba(255, 255, 255, 0.9); }
+.newdesign .department-summary { clear: left; position: relative; }
+.newdesign .department-summary > h1 { margin-bottom: 0.4em; color: #4bcc00; font-size: 38px; font-size: 3.8rem; line-height: 1.1; }
+.newdesign .department-summary-list li, .newdesign .department-summary-list h2, .newdesign .department-summary-list p { float: left; margin-bottom: 0.5em; }
+.newdesign .department-summary-list li { margin-right: 1.4em; }
+.newdesign .department-summary-list h2 { font-size: 13px; font-size: 1.3rem; padding-right: 0.4em; margin-top: 0.08em; }
+.newdesign .department-edit { display: inline-block; position: relative; top: -0.6em; margin-left: 0.5em; padding: 0.3em 1em; padding-left: 1.3em; background-color: #fff; border: 1px solid #eaeaea; -webkit-border-top-left-radius: 2.5em; -webkit-border-top-right-radius: 0; -webkit-border-bottom-right-radius: 0; -webkit-border-bottom-left-radius: 2.5em; -moz-border-radius-topleft: 2.5em; -moz-border-radius-topright: 0; -moz-border-radius-bottomright: 0; -moz-border-radius-bottomleft: 2.5em; border-top-left-radius: 2.5em; border-top-right-radius: 0; border-bottom-right-radius: 0; border-bottom-left-radius: 2.5em; color: #4bcc00; font-size: 12px; font-size: 1.2rem; line-height: 1.5em; text-transform: lowercase; text-decoration: none; }
+.newdesign .department-edit:hover { border-color: transparent; background-color: #333333; color: #fff; text-decoration: underline; }
+.newdesign .department-summary-email-link, .newdesign .department-summary-phone-link { padding-left: 1.8em; background: url(../images/general/hireology-contact-sprites.png) no-repeat; color: #333333; text-decoration: none; }
+.newdesign .department-summary-email-link:hover, .newdesign .department-summary-phone-link:hover { text-decoration: underline; }
+.newdesign .department-summary-email-link { background-position: 0 3px; }
+.newdesign .department-summary-email-link:hover { background-position: 0 -47px; }
+.newdesign .department-summary-phone-link { background-position: 0 -97px; }
+.newdesign .department-summary-phone-link:hover { background-position: 0 -147px; }
+.newdesign .status-indicator { margin-top: -0.19em; padding: 0.36em 1.1em 0.2em 0; background-color: #333333; background-color: #333333; background-image: -webkit-gradient(linear, left top, left bottom, from(#333333), to(#222222)); background-image: -webkit-linear-gradient(top, #333333, #222222); background-image: -moz-linear-gradient(top, #333333, #222222); background-image: -ms-linear-gradient(top, #333333, #222222); background-image: -o-linear-gradient(top, #333333, #222222); background-image: linear-gradient(top, #333333, #222222); filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#333333', EndColorStr='#222222'); -moz-border-radius: 5em; -webkit-border-radius: 5em; border-radius: 5em; border: 1px solid #111111; font-size: 11px; font-size: 1.1rem; color: #fff; text-transform: uppercase; text-shadow: 0 1px 1px black; }
+.newdesign .status-indicator-message { padding-left: 2.4em; background: url(../images/general/status-indicator-pending.png) no-repeat 0.6em 59%; }
+.newdesign .status-indicator-editable { position: relative; cursor: pointer; margin-left: 0.2em; }
+.newdesign .status-indicator-editable .status-indicator-message { background-position: 0.5em 65%; }
+.newdesign .status-action-menu { position: relative; }
+.newdesign .status-action-menu ul { display: none; position: absolute; top: 100%; right: 0; background-color: #333; border: 1px solid white; border-top-width: 0; padding-bottom: 6px; -webkit-box-shadow: 0 0 4px rgba(0, 0, 0, 0.5); -moz-box-shadow: 0 0 4px rgba(0, 0, 0, 0.5); box-shadow: 0 0 4px rgba(0, 0, 0, 0.5); -webkit-border-top-left-radius: 0; -webkit-border-top-right-radius: 0; -webkit-border-bottom-right-radius: 10px; -webkit-border-bottom-left-radius: 10px; -moz-border-radius-topleft: 0; -moz-border-radius-topright: 0; -moz-border-radius-bottomright: 10px; -moz-border-radius-bottomleft: 10px; border-top-left-radius: 0; border-top-right-radius: 0; border-bottom-right-radius: 10px; border-bottom-left-radius: 10px; }
+.newdesign .status-action-menu ul li { float: none; padding: 0.36em 1.1em 0.2em 2.4em; margin: 0; font-size: 11px; font-size: 1.1rem; text-transform: uppercase; text-shadow: 0 1px 1px black; }
+.newdesign .status-action-menu ul li:hover { background-color: #222; }
+.newdesign .status-action-menu ul a, .newdesign .status-action-menu ul a:hover { color: inherit; text-decoration: none; }
+.newdesign .status-indicator-editable:hover { background-color: black; background-image: -webkit-gradient(linear, left top, left bottom, from(black), to(#222222)); background-image: -webkit-linear-gradient(top, black, #222222); background-image: -moz-linear-gradient(top, black, #222222); background-image: -ms-linear-gradient(top, black, #222222); background-image: -o-linear-gradient(top, black, #222222); background-image: linear-gradient(top, black, #222222); filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='black', EndColorStr='#222222'); }
+.newdesign .status-action-menu.is-expanded .status-indicator-editable { background-color: #222222; background-image: -webkit-gradient(linear, left top, left bottom, from(#222222), to(#333333)); background-image: -webkit-linear-gradient(top, #222222, #333333); background-image: -moz-linear-gradient(top, #222222, #333333); background-image: -ms-linear-gradient(top, #222222, #333333); background-image: -o-linear-gradient(top, #222222, #333333); background-image: linear-gradient(top, #222222, #333333); filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#222222', EndColorStr='#333333'); background-color: #333; border: 1px solid white; -webkit-border-top-left-radius: 10px; -webkit-border-top-right-radius: 10px; -webkit-border-bottom-right-radius: 0; -webkit-border-bottom-left-radius: 0; -moz-border-radius-topleft: 10px; -moz-border-radius-topright: 10px; -moz-border-radius-bottomright: 0; -moz-border-radius-bottomleft: 0; border-top-left-radius: 10px; border-top-right-radius: 10px; border-bottom-right-radius: 0; border-bottom-left-radius: 0; -webkit-box-shadow: 0 0 4px rgba(0, 0, 0, 0.5); -moz-box-shadow: 0 0 4px rgba(0, 0, 0, 0.5); box-shadow: 0 0 4px rgba(0, 0, 0, 0.5); }
+.newdesign .status-action-menu.is-expanded ul { display: block; }
+.newdesign .is-status-pending { color: #e7ae08; }
+.newdesign .is-status-pending .status-indicator-message { color: #f8db2a; background-image: url(../images/general/status-indicator-pending.png); }
+.newdesign .is-status-pending.status-indicator-editable .status-indicator-message { background-image: url(../images/general/status-indicator-editable-pending.png); }
+.newdesign .is-status-holding { color: #009dff; }
+.newdesign .is-status-holding .status-indicator-message { background-image: url(../images/general/status-indicator-holding.png); }
+.newdesign .is-status-holding.status-indicator-editable .status-indicator-message { background-image: url(../images/general/status-indicator-editable-holding.png); }
+.newdesign .is-status-active { color: #83df34; }
+.newdesign .is-status-active .status-indicator-message { background-image: url(../images/general/status-indicator-active.png); }
+.newdesign .is-status-active.status-indicator-editable .status-indicator-message { background-image: url(../images/general/status-indicator-editable-active.png); }
+.newdesign .is-status-halted { color: #ed3800; }
+.newdesign .is-status-halted .status-indicator-message { background-image: url(../images/general/status-indicator-halted.png); }
+.newdesign .is-status-halted.status-indicator-editable .status-indicator-message { background-image: url(../images/general/status-indicator-editable-halted.png); }
+.newdesign .is-status-deleted { color: #aaaaaa; }
+.newdesign .is-status-deleted .status-indicator-message { background-image: url(../images/general/status-indicator-deleted.png); }
+.newdesign .is-status-deleted.status-indicator-editable .status-indicator-message { background-image: url(../images/general/status-indicator-editable-deleted.png); }
+.newdesign .is-score-low-risk { color: #88bb33; }
+.newdesign .is-score-moderate-risk { color: #dab759; }
+.newdesign .is-score-high-risk { color: red; }
+.newdesign .department-nav-list { margin-left: -1.0em; font-size: 15px; font-size: 1.5rem; }
+.newdesign .department-nav-list li, .newdesign .department-nav-list a { float: left; }
+.newdesign .department-nav-list li, .newdesign .department-nav-list a { float: left; }
+.newdesign .department-nav-list a { padding-top: 0.9em; padding-right: 1.0em; padding-bottom: 0.9em; padding-left: 1.0em; display: block; color: #aaa; text-decoration: none; }
+.newdesign .department-nav-list a:hover { color: #fff; }
+.newdesign .department-nav-list .is-current { padding-right: 1.6em; background: url(../images/general/department-nav-current-right.png) no-repeat right top; }
+.newdesign .department-nav-list li + .is-current { padding-left: 1.6em; background: url(../images/general/department-nav-current-left.png) no-repeat left top, url(../images/general/department-nav-current-right.png) no-repeat right top; }
+.newdesign .department-nav-list .is-current a { background: url(../images/general/department-nav-current.png) no-repeat center bottom; color: #93d554; }
+.newdesign .department-action-set { position: relative; margin-bottom: 1.8em; font-size: 13px; font-size: 1.3rem; line-height: 1.3; color: #333333; }
+.newdesign .department-action-set h1 { text-transform: uppercase; margin-bottom: 0.5em; color: #aaaaaa; }
+.newdesign .department-action-set a { display: block; margin-left: -11px; text-decoration: none; }
+.newdesign .action-menu { position: relative; }
+.newdesign .action-menu ul { display: none; position: absolute; width: 170px; left: -177px; top: 0; -webkit-border-top-left-radius: 4px; -webkit-border-top-right-radius: 0; -webkit-border-bottom-right-radius: 4px; -webkit-border-bottom-left-radius: 4px; -moz-border-radius-topleft: 4px; -moz-border-radius-topright: 0; -moz-border-radius-bottomright: 4px; -moz-border-radius-bottomleft: 4px; border-top-left-radius: 4px; border-top-right-radius: 0; border-bottom-right-radius: 4px; border-bottom-left-radius: 4px; background-color: #333; }
+.newdesign .action-menu.is-expanded ul, .newdesign .action-menu.is-expanded > a { border: 2px solid white; -webkit-box-shadow: 0 0 4px rgba(0, 0, 0, 0.5); -moz-box-shadow: 0 0 4px rgba(0, 0, 0, 0.5); box-shadow: 0 0 4px rgba(0, 0, 0, 0.5); }
+.newdesign .action-menu.is-expanded ul { display: block; }
+.newdesign .action-menu.is-expanded a { color: #fff; text-shadow: 0 1px 1px black; padding: 0.46em 0 0.4em 2.4em; }
+.newdesign .action-menu.is-expanded > a { background-color: #333; border-left: none; -webkit-border-top-left-radius: 0; -webkit-border-top-right-radius: 4px; -webkit-border-bottom-right-radius: 4px; -webkit-border-bottom-left-radius: 0; -moz-border-radius-topleft: 0; -moz-border-radius-topright: 4px; -moz-border-radius-bottomright: 4px; -moz-border-radius-bottomleft: 0; border-top-left-radius: 0; border-top-right-radius: 4px; border-bottom-right-radius: 4px; border-bottom-left-radius: 0; position: relative; left: 2px; z-index: 100; }
+.newdesign .action-menu.is-expanded ul a { margin-left: 0; padding-left: 1em; }
+.newdesign .action-menu.is-expanded ul a:hover { background-color: #222; }
+.newdesign .action-link { position: relative; padding: 0.46em 0 0.4em 2.4em; -moz-border-radius: 3px; -webkit-border-radius: 3px; border-radius: 3px; border: 2px solid transparent; background-position: 0 -600px; /* High-res sprites */ color: #333333; }
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 144dpi) { .newdesign .action-link { /* Ideally these would be used with @extend .sprite-highres, but Sass doesn't currently support @extend in Media Queries */ background-image: url(../images/general/hireology-sprites@2x.png); -moz-background-size: 100px auto; -webkit-background-size: 100px auto; background-size: 100px auto; } }
+.newdesign .action-link:hover { background-color: #eee; color: #333333; }
+.newdesign .action-link-strong { position: relative; left: 0.8em; margin-top: 0.4em; margin-right: 0.7em; margin-bottom: 0; padding-top: 0.6em; padding-bottom: 0.5em; padding-left: 2.0em; background-color: #ffa200; -moz-box-shadow: inset 0 0 1px rgba(255,255,255, 0.9), 0 1px 5px rgba(0, 0, 0, 0.1); -o-box-shadow: inset 0 0 1px rgba(255,255,255, 0.9), 0 1px 5px rgba(0, 0, 0, 0.1); -webkit-box-shadow: inset 0 0 1px rgba(255,255,255, 0.9), 0 1px 5px rgba(0, 0, 0, 0.1); box-shadow: inset 0 0 1px rgba(255,255,255, 0.9), 0 1px 5px rgba(0, 0, 0, 0.1); border: solid 1px #ffa80f; -moz-border-radius: 1; -webkit-border-radius: 1; border-radius: 1; color: #fff; text-shadow: 0 1px 0 rgba(0, 0, 0, 0.3); }
+.newdesign .action-link-strong:hover { color: #fff; background-color: #ffaf24; }
+.newdesign .action-link-sub-action { position: absolute; top: 0.35em; right: 0.35em; opacity: 0; padding: 0 0.6em; background-color: #aaaaaa; -moz-border-radius: 2px; -webkit-border-radius: 2px; border-radius: 2px; font-size: 11px; font-size: 1.1rem; line-height: 1.8; color: #fff; }
+.newdesign .action-link:hover .action-link-sub-action { opacity: 1; }
+.newdesign .job-url-link { background-position: 10px -895px; }
+.newdesign .job-share-link, .newdesign .candidate-share-link { background-position: 10px -795px; }
+.newdesign .job-post-link { background-image: url(../images/general/small-plus-icon.png); background-position: 0.7em center; -moz-background-size: auto auto; -webkit-background-size: auto auto; background-size: auto auto; }
+.newdesign .job-description-doc-link, .newdesign .candidate-report-doc-link { background-position: 10px -996px; }
+.newdesign .job-analysis-doc-link { background-position: 10px -946px; }
+.newdesign .job-team-member-link { background-position: 10px -1446px; }
+.newdesign .add-job-team-member-link { background-position: 10px -595px; }
+.newdesign .task-link { background-image: none; }
+.newdesign .add-task-link { background-position: 9px -595px; }
+.newdesign .task-checkbox { display: block; position: absolute; z-index: 30; width: 2.0em; height: 1.8em; background-position: 12px -1141px; /* High-res sprites */ }
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 144dpi) { .newdesign .task-checkbox { /* Ideally these would be used with @extend .sprite-highres, but Sass doesn't currently support @extend in Media Queries */ background-image: url(../images/general/hireology-sprites@2x.png); -moz-background-size: 100px auto; -webkit-background-size: 100px auto; background-size: 100px auto; } }
+.newdesign .task-checkbox:hover { background-position: 12px -1191px; }
+.newdesign .task-checkbox.is-checked { background-position: 12px -1241px; }
+.newdesign .department-action-set-strong { margin-bottom: 1.8em; margin-left: -1em; -moz-border-radius: 2px; -webkit-border-radius: 2px; border-radius: 2px; background-color: #fafafa; border: solid 1px #e6e6e6; padding: 1em 1em 1em 1em; }
+.newdesign .department-action-set-strong h1 { margin-bottom: 0.4em; padding-bottom: 0.5em; border-bottom: 1px solid #dddddd; color: #ffa200; }
+.newdesign #show_on_career_site { margin-left: 0; }
+.newdesign .career-site-toggle, .newdesign .show-on-career-copy { float: left; }
+.newdesign .career-site-toggle { margin-top: 1em; margin-right: 0.8em; }
+.newdesign .show-on-career-copy { margin-top: 0.8em; width: 60%; float: left; margin-bottom: 0.6em; }
+.newdesign .candidate-review-display-select { float: left; margin-left: -0.3em; }
+.newdesign .candidate-review-display-select li { float: left; }
+.newdesign .candidate-review-display-select a { display: block; width: 2.5em; height: 2em; background-position: unchanged unchanged; /* High-res sprites */ background-repeat: no-repeat; }
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 144dpi) { .newdesign .candidate-review-display-select a { /* Ideally these would be used with @extend .sprite-highres, but Sass doesn't currently support @extend in Media Queries */ background-image: url(../images/general/hireology-sprites@2x.png); -moz-background-size: 100px auto; -webkit-background-size: 100px auto; background-size: 100px auto; } }
+.newdesign .candidate-review-display-phase { background-position: 5px 8px; }
+.newdesign .candidate-review-display-phase:hover, .newdesign .candidate-review-display-phase.is-active { background-position: 5px -42px; }
+.newdesign .candidate-review-display-full { background-position: 5px -92px; }
+.newdesign .candidate-review-display-full:hover, .newdesign .candidate-review-display-full.is-active { background-position: 5px -142px; }
+.newdesign .candidate-review-display-progress { background-position: 5px -192px; }
+.newdesign .candidate-review-display-progress:hover, .newdesign .candidate-review-display-progress.is-active { background-position: 5px -242px; }
+.newdesign .candidate-review-phase-select { clear: left; float: left; margin-left: 20%; }
+.newdesign .candidate-review-phase-select .phase-list { position: relative; -moz-transition: 0.3s; -o-transition: 0.3s; -webkit-transition: 0.3s; -ms-transition: 0.3s; transition: 0.3s; }
+.newdesign .candidate-review-phase-select li, .newdesign .candidate-review-phase-select h1 { width: 11em; padding: 0.8em 0 0.7em 0.9em; float: left; font-size: 13px; font-size: 1.3rem; text-transform: uppercase; color: #aaaaaa; }
+.newdesign .candidate-review-phase-select li { cursor: pointer; background: url(../images/general/phase-tab-inactive.png) no-repeat right top; }
+.newdesign .candidate-review-phase-select li:hover { color: #333333; }
+.newdesign .candidate-review-phase-select h1 { position: absolute; background: url(../images/general/phase-tab-active.png) no-repeat right top; color: #93d554; -moz-transition: 0.3s; -o-transition: 0.3s; -webkit-transition: 0.3s; -ms-transition: 0.3s; transition: 0.3s; }
+.newdesign .candidate-review-phase-select .phase-list-number, .newdesign .candidate-review-phase-select .phase-name { -moz-transition: 0.2s; -o-transition: 0.2s; -webkit-transition: 0.2s; -ms-transition: 0.2s; transition: 0.2s; }
+.newdesign .candidate-review-phase-select.is-inactive { display: none; }
+.newdesign .phase-list-number { display: inline-block; text-align: center; width: 1.8em; height: 1.8em; position: relative; top: -0.3em; margin-right: 1em; padding-top: 0.25em; background-color: #aaaaaa; -moz-border-radius: 3em; -webkit-border-radius: 3em; border-radius: 3em; font-size: 9px; font-size: 0.9rem; color: #fff; }
+.newdesign h1 .phase-list-number { background-color: #93d554; color: #333333; }
+.newdesign li:hover .phase-list-number { background-color: #93d554; color: #fff; }
+.newdesign a.add-a { display: block; margin-bottom: 3.7em; padding: 0.5em 1em 0.4em 2.7em; background-color: #aaaaaa; background: #aaaaaa url(../images/general/add-a-icon.png) no-repeat 0.7em 48%; border: 1px solid #888888; -moz-border-radius: 0.2em; -webkit-border-radius: 0.2em; border-radius: 0.2em; -moz-box-shadow: inset 0 0 1px rgba(255,255,255, 0.75); -o-box-shadow: inset 0 0 1px rgba(255,255,255, 0.75); -webkit-box-shadow: inset 0 0 1px rgba(255,255,255, 0.75); box-shadow: inset 0 0 1px rgba(255,255,255, 0.75); font-size: 15px; font-size: 1.5rem; line-height: 1.3; color: #fff; text-decoration: none; }
+.newdesign a.add-a:hover { color: #fff; background-color: #4fd600; }
+.newdesign a.add-a-candidate, .newdesign a.add-a-job { background-color: #4bcc00; border-color: #00ad00; }
+.newdesign #add_a_candidate, .newdesign #add_a_team_member, .newdesign #add_a_task { position: relative; }
+.newdesign input.add-a { width: 100%; padding: 0.4em 2.5em 0.5em 0.3em; background: none; border: none; background-color: white; background: url(../images/general/app-search.png) no-repeat 98% 48%; font-size: 15px; font-size: 1.5rem; line-height: 1.3; border-bottom: 1px solid #bbbbbb; font-size: inherit; }
+.newdesign input.add-a-candidate { margin-bottom: 3.7em; }
+.newdesign input.add-a-candidate, .newdesign input.add-a-team-member { display: none; }
+.newdesign ul.add-a-task { display: none; position: absolute; width: 19em; left: -19.6em; top: 0; -webkit-border-top-left-radius: 4px; -webkit-border-top-right-radius: 0; -webkit-border-bottom-right-radius: 4px; -webkit-border-bottom-left-radius: 4px; -moz-border-radius-topleft: 4px; -moz-border-radius-topright: 0; -moz-border-radius-bottomright: 4px; -moz-border-radius-bottomleft: 4px; border-top-left-radius: 4px; border-top-right-radius: 0; border-bottom-right-radius: 4px; border-bottom-left-radius: 4px; background-color: #333333; color: white; border: 2px solid white; -webkit-box-shadow: 0 0 4px rgba(0, 0, 0, 0.5); -moz-box-shadow: 0 0 4px rgba(0, 0, 0, 0.5); box-shadow: 0 0 4px rgba(0, 0, 0, 0.5); }
+.newdesign ul.add-a-task li { padding: 3px 11px; }
+.newdesign ul.add-a-task input.add-a { padding: 0.4em 0.3em 0.5em; background-image: none; color: white; }
+.newdesign ul.add-a-task a { color: inherit; margin-left: 0; }
+.newdesign ul.add-a-task .add-a-task-hour, .newdesign ul.add-a-task .add-a-task-minute { margin: 0.5em 0; }
+.newdesign ul.add-a-task a.let-everyone-see-task { background-position: 0 -1141px; /* High-res sprites */ padding: 0.46em 0 0.4em 1.4em; }
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 144dpi) { .newdesign ul.add-a-task a.let-everyone-see-task { /* Ideally these would be used with @extend .sprite-highres, but Sass doesn't currently support @extend in Media Queries */ background-image: url(../images/general/hireology-sprites@2x.png); -moz-background-size: 100px auto; -webkit-background-size: 100px auto; background-size: 100px auto; } }
+.newdesign ul.add-a-task a.let-everyone-see-task:hover { background-position: 0 -1191px; }
+.newdesign ul.add-a-task a.let-everyone-see-task.is-checked { background-position: 0 -1241px; }
+.newdesign ul.add-a-task a.submit-task { background-position: 0 -600px; /* High-res sprites */ background-position: 0 -595px; padding: 0.46em 0 0.4em 1.4em; }
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 144dpi) { .newdesign ul.add-a-task a.submit-task { /* Ideally these would be used with @extend .sprite-highres, but Sass doesn't currently support @extend in Media Queries */ background-image: url(../images/general/hireology-sprites@2x.png); -moz-background-size: 100px auto; -webkit-background-size: 100px auto; background-size: 100px auto; } }
+.newdesign ul.add-a-task a.cancel-task { color: #ed3800; }
+.newdesign ul.add-a-task a.submit-task, .newdesign ul.add-a-task a.cancel-task { display: inline; }
+.newdesign #add_a_task.is-expanded ul.add-a-task { display: block; }
+.newdesign #add_a_task.is-expanded a.add-task-link { border: 2px solid white; -webkit-box-shadow: 0 0 4px rgba(0, 0, 0, 0.5); -moz-box-shadow: 0 0 4px rgba(0, 0, 0, 0.5); box-shadow: 0 0 4px rgba(0, 0, 0, 0.5); color: #fff; text-shadow: 0 1px 1px black; padding: 0.46em 0 0.4em 2.4em; background-color: #333333; border-left: none; -webkit-border-top-left-radius: 0; -webkit-border-top-right-radius: 4px; -webkit-border-bottom-right-radius: 4px; -webkit-border-bottom-left-radius: 0; -moz-border-radius-topleft: 0; -moz-border-radius-topright: 4px; -moz-border-radius-bottomright: 4px; -moz-border-radius-bottomleft: 0; border-top-left-radius: 0; border-top-right-radius: 4px; border-bottom-right-radius: 4px; border-bottom-left-radius: 0; position: relative; left: 2px; z-index: 100; }
+.newdesign .candidate-review-table { clear: left; float: left; width: 100%; margin-bottom: 2.5em; -moz-backface-visibility: hidden; -o-backface-visibility: hidden; -webkit-backface-visibility: hidden; -ms-backface-visibility: hidden; backface-visibility: hidden; }
+.newdesign .candidate-review-table th, .newdesign .candidate-review-table td { padding: 0.9em 0 0.9em 1em; }
+.newdesign .candidate-review-table th { background-color: #828282; font-size: 13px; font-size: 1.3rem; color: #fff; text-align: left; cursor: pointer; }
+.newdesign .candidate-review-table td { position: relative; vertical-align: middle; border-bottom: 1px solid #e6e6e6; padding-top: 1em; font-size: 13px; font-size: 1.3rem; }
+.newdesign .candidate-review-table a { text-decoration: none; }
+.newdesign .collapsible-heading { margin-bottom: 0.9em; font-size: 16px; font-size: 1.6rem; }
+.newdesign .collapsible-heading a { padding: 0.8em 1.5em 0.8em 0; border: 1px solid transparent; text-decoration: none; color: #333333; background: url(../images/general/inactive-candidate-collapse.png) no-repeat right 15px; }
+.newdesign .collapsible-heading a:hover { text-decoration: underline; color: #aaaaaa; }
+.newdesign .collapsible-heading.open a { background-position: right -22px; }
+.newdesign .collapsible-heading.closed { margin-bottom: 3em; }
+.newdesign .hired-candidates { clear: left; }
+.newdesign .hired-candidates-table { margin-top: 0; margin-bottom: 3em; }
+.newdesign .hired-candidates-table thead { display: none; }
+.newdesign .hired-candidates-table tbody tr:first-child td { border-top: 1px solid #dddddd; }
+.newdesign .hired-candidates-table th { cursor: auto; }
+.newdesign .hired-candidates-table .col-name { padding-left: 0; }
+.newdesign .hired-candidates-table .candidate-full-name { color: #389900; }
+.newdesign .hired-candidate-email-link, .newdesign .hired-candidate-phone-link { padding-left: 1.8em; background: url(../images/general/hireology-contact-sprites.png) no-repeat; color: #333333; text-decoration: none; }
+.newdesign .hired-candidate-email-link:hover, .newdesign .hired-candidate-phone-link:hover { text-decoration: underline; }
+.newdesign .hired-candidate-email-link { background-position: 0 2px; }
+.newdesign .hired-candidate-email-link:hover { background-position: 0 -48px; }
+.newdesign .hired-candidate-phone-link { background-position: 0 -98px; }
+.newdesign .hired-candidate-phone-link:hover { background-position: 0 -148px; }
+.newdesign .inactive-candidates { position: relative; }
+.newdesign .inactive-candidate-review-table { margin-top: 0; }
+.newdesign .standard-width-col, .newdesign .col-survey, .newdesign .col-phone-screen, .newdesign .col-achievements, .newdesign .col-references, .newdesign .candidate-review-table.no-phone-screen .col-achievements, .newdesign .candidate-review-table.no-achievements .col-phone-screen, .newdesign .candidate-review-table.no-elements .col-phone-screen { width: 17%; }
+.newdesign .col-name { width: 20%; }
+.newdesign .col-name a { color: #333333; text-decoration: none; }
+.newdesign .col-name a:hover { text-decoration: underline; }
+.newdesign .col-documents { width: 24%; }
+.newdesign .col-avg-interview-score { display: none; }
+.newdesign .col-total-interview-score { display: none; }
+.newdesign .col-total-progress { display: none; }
+.newdesign .col-custom-interviews { display: none; }
+.newdesign .col-background-check { width: 27%; }
+.newdesign th.col-process-candidate { cursor: auto; }
+.newdesign .col-process-candidate { width: 1%; }
+.newdesign .col-date-added { display: none; }
+.newdesign .candidate-review-table.no-phone-screen .col-phone-screen, .newdesign .candidate-review-table.no-achievements .col-achievements, .newdesign .candidate-review-table.no-elements .col-elements { display: none; }
+.newdesign .candidate-review-table.no-phone-screen .col-elements { width: auto; }
+.newdesign .candidate-review-table.no-phone-screen.no-achievements .col-elements { width: auto; }
+.newdesign .candidate-review-table.no-phone-screen.no-elements .col-achievements { width: auto; }
+.newdesign .candidate-review-table.no-achievements .col-elements { width: auto; }
+.newdesign .candidate-review-table.no-achievements.no-elements .col-phone-screen { width: auto; }
+.newdesign .candidate-review-table.no-elements .col-achievements { width: auto; }
+.newdesign .candidate-review-table.is-phase-0 th.col-survey, .newdesign .candidate-review-table.is-phase-0 th.col-documents, .newdesign .candidate-review-table.is-phase-0 th.col-rating { background-color: #333333; }
+.newdesign .candidate-review-table.is-phase-0 .col-phone-screen, .newdesign .candidate-review-table.is-phase-0 .col-achievements, .newdesign .candidate-review-table.is-phase-0 .col-elements, .newdesign .candidate-review-table.is-phase-0 .col-custom-interviews, .newdesign .candidate-review-table.is-phase-0 .col-references, .newdesign .candidate-review-table.is-phase-0 .col-background-check, .newdesign .candidate-review-table.is-phase-0 .col-testing { display: none; }
+.newdesign .candidate-review-table.is-phase-1 th.col-phone-screen, .newdesign .candidate-review-table.is-phase-1 th.col-achievements, .newdesign .candidate-review-table.is-phase-1 th.col-elements, .newdesign .candidate-review-table.is-phase-1 th.col-custom-interviews { background-color: #333333; }
+.newdesign .candidate-review-table.is-phase-1 .col-rating, .newdesign .candidate-review-table.is-phase-1 .col-survey, .newdesign .candidate-review-table.is-phase-1 .col-documents, .newdesign .candidate-review-table.is-phase-1 .col-references, .newdesign .candidate-review-table.is-phase-1 .col-background-check, .newdesign .candidate-review-table.is-phase-1 .col-testing { display: none; }
+.newdesign .candidate-review-table.is-phase-2 th.col-references, .newdesign .candidate-review-table.is-phase-2 th.col-background-check, .newdesign .candidate-review-table.is-phase-2 th.col-testing { background-color: #333333; }
+.newdesign .candidate-review-table.is-phase-2 .col-rating, .newdesign .candidate-review-table.is-phase-2 .col-phone-screen, .newdesign .candidate-review-table.is-phase-2 .col-achievements, .newdesign .candidate-review-table.is-phase-2 .col-elements, .newdesign .candidate-review-table.is-phase-2 .col-custom-interviews, .newdesign .candidate-review-table.is-phase-2 .col-survey, .newdesign .candidate-review-table.is-phase-2 .col-documents { display: none; }
+.newdesign .candidate-review-table.is-display-0 .col-heading-extended { display: none; }
+.newdesign .candidate-review-table.is-display-1 { /* Specific overrides for headers and cells */ /* Full column heads */ /* Give the vertically oriented buttons (e.g. docs) more breathing room */ /* The collapsed document collection */ }
+.newdesign .candidate-review-table.is-display-1 th, .newdesign .candidate-review-table.is-display-1 td { padding-left: 0; padding-right: 0.4em; }
+.newdesign .candidate-review-table.is-display-1 th { background-color: #333333; position: relative; }
+.newdesign .candidate-review-table.is-display-1 th.col-name, .newdesign .candidate-review-table.is-display-1 th.col-process-candidate { background-color: #828282; }
+.newdesign .candidate-review-table.is-display-1 td { vertical-align: top; }
+.newdesign .candidate-review-table.is-display-1 .col-survey, .newdesign .candidate-review-table.is-display-1 .col-documents, .newdesign .candidate-review-table.is-display-1 .col-phone-screen, .newdesign .candidate-review-table.is-display-1 .col-achievements, .newdesign .candidate-review-table.is-display-1 .col-elements, .newdesign .candidate-review-table.is-display-1 .col-references, .newdesign .candidate-review-table.is-display-1 .col-background-check, .newdesign .candidate-review-table.is-display-1 .col-testing { display: table-cell; width: 7.5%; }
+.newdesign .candidate-review-table.is-display-1 .col-rating { display: table-cell; width: auto; }
+.newdesign .candidate-review-table.is-display-1 td.col-name { padding-top: 1.4em; }
+.newdesign .candidate-review-table.is-display-1 .col-name, .newdesign .candidate-review-table.is-display-1 .col-survey { padding-left: 1em; }
+.newdesign .candidate-review-table.is-display-1 .col-rating { min-width: 100px; }
+.newdesign .candidate-review-table.is-display-1 th.col-phone-screen, .newdesign .candidate-review-table.is-display-1 th.col-references { border-left: solid 1px #444444; }
+.newdesign .candidate-review-table.is-display-1 .col-phone-screen, .newdesign .candidate-review-table.is-display-1 .col-references { padding-left: 1.3em; }
+.newdesign .candidate-review-table.is-display-1 .col-process-candidate { padding-right: 0; padding-left: 1.0em; }
+.newdesign .candidate-review-table.is-display-1 .status-descriptor { display: none; }
+.newdesign .candidate-review-table.is-display-1 .col-heading-extended { position: absolute; top: -2em; margin-left: -0.1em; z-index: 10; display: none; width: 8em; text-transform: uppercase; color: #aaaaaa; font-size: 13px; font-size: 1.3rem; }
+.newdesign .candidate-review-table.is-display-1 .col-heading-extended .phase-list-number { background-color: #aaaaaa; color: #fff; margin-right: 0.5em; }
+.newdesign .candidate-review-table.is-display-1 .col-heading { position: absolute; top: 0.53em; width: 2.2em; height: 2em; margin-left: -0.4em; background-position: 0 -4800px; /* High-res sprites */ }
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 144dpi) { .newdesign .candidate-review-table.is-display-1 .col-heading { /* Ideally these would be used with @extend .sprite-highres, but Sass doesn't currently support @extend in Media Queries */ background-image: url(../images/general/hireology-sprites@2x.png); -moz-background-size: 100px auto; -webkit-background-size: 100px auto; background-size: 100px auto; } }
+.newdesign .candidate-review-table.is-display-1 .col-survey .col-heading { background-position: 0 -4800px; }
+.newdesign .candidate-review-table.is-display-1 .col-documents .col-heading { background-position: 0 -4850px; }
+.newdesign .candidate-review-table.is-display-1 .col-rating .col-heading { background-position: 0 -5200px; }
+.newdesign .candidate-review-table.is-display-1 .col-phone-screen .col-heading { background-position: 0 -4900px; }
+.newdesign .candidate-review-table.is-display-1 .col-achievements .col-heading { background-position: 0 -4950px; }
+.newdesign .candidate-review-table.is-display-1 .col-elements .col-heading { background-position: 0 -5000px; }
+.newdesign .candidate-review-table.is-display-1 .col-custom-interviews .col-heading { background-image: none; }
+.newdesign .candidate-review-table.is-display-1 .col-references .col-heading { background-position: 0 -5050px; }
+.newdesign .candidate-review-table.is-display-1 .col-background-check .col-heading { background-position: 0 -5100px; }
+.newdesign .candidate-review-table.is-display-1 .col-testing .col-heading { background-position: 0 -5150px; }
+.newdesign .candidate-review-table.is-display-1 .resume-button, .newdesign .candidate-review-table.is-display-1 .cover-letter-button { margin-bottom: 0.5em; }
+.newdesign .candidate-review-table.is-display-1 .document-collection { display: block; overflow: hidden; width: 3em; height: 2em; margin-bottom: 2em; margin-left: -0.3em; background-position: left -2100px; /* High-res sprites */ cursor: pointer; }
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 144dpi) { .newdesign .candidate-review-table.is-display-1 .document-collection { /* Ideally these would be used with @extend .sprite-highres, but Sass doesn't currently support @extend in Media Queries */ background-image: url(../images/general/hireology-sprites@2x.png); -moz-background-size: 100px auto; -webkit-background-size: 100px auto; background-size: 100px auto; } }
+.newdesign .candidate-review-table.is-display-1 .document-collection .documents { z-index: 100; overflow: hidden; width: 2.4em; height: 0; opacity: 0; margin-top: -8px; margin-left: -2px; padding: 0.5em; background-color: #fff; -moz-border-radius: 2px; -webkit-border-radius: 2px; border-radius: 2px; border: 1px solid #aaaaaa; -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.15); -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.15); box-shadow: 0 1px 4px rgba(0, 0, 0, 0.15); -moz-transition: none; -o-transition: none; -webkit-transition: none; -ms-transition: none; transition: none; }
+.newdesign .candidate-review-table.is-display-1 .document-collection:hover .documents { display: block; position: absolute; height: auto; opacity: 1; -moz-transition: opacity 0.2s; -o-transition: opacity 0.2s; -webkit-transition: opacity 0.2s; -ms-transition: opacity 0.2s; transition: opacity 0.2s; }
+.newdesign .candidate-review-button { float: left; height: 2em; min-width: 2.2em; margin-left: -0.4em; margin-right: 1.1em; display: block; background-position: left top; /* High-res sprites */ -moz-backface-visibility: hidden; -o-backface-visibility: hidden; -webkit-backface-visibility: hidden; -ms-backface-visibility: hidden; backface-visibility: hidden; }
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 144dpi) { .newdesign .candidate-review-button { /* Ideally these would be used with @extend .sprite-highres, but Sass doesn't currently support @extend in Media Queries */ background-image: url(../images/general/hireology-sprites@2x.png); -moz-background-size: 100px auto; -webkit-background-size: 100px auto; background-size: 100px auto; } }
+.newdesign .candidate-review-button:hover { color: #333333; opacity: 0.7; }
+.newdesign .reject-candidate-button, .newdesign .unreject-candidate-button { width: 1.8em; margin-right: 0.4em; background-position: 0 -1650px; }
+.newdesign .reject-candidate-button:hover, .newdesign .unreject-candidate-button:hover { background-position: 0 -1700px; opacity: 1; }
+.newdesign .unreject-candidate-button { background-position: 0 -1550px; }
+.newdesign .unreject-candidate-button:hover { background-position: 0 -1600px; }
+.newdesign .survey-button { background-position: 0 -1800px; }
+.newdesign .survey-button.is-status-active { background-position: 0 -1850px; }
+.newdesign .survey-button.is-status-pending { background-position: 0 -1900px; }
+.newdesign .survey-button.is-status-holding { background-position: 0 -1950px; }
+.newdesign .survey-button.is-status-halted { background-position: 0 -2000px; }
+.newdesign .resume-button { background-position: 0 -2100px; }
+.newdesign .resume-button.is-status-active { background-position: 0 -2150px; }
+.newdesign .resume-button.is-status-pending { background-position: 0 -2200px; }
+.newdesign .resume-button.is-status-holding { background-position: 0 -2250px; }
+.newdesign .resume-button.is-status-halted { background-position: 0 -2300px; }
+.newdesign .cover-letter-button { background-position: 0 -2400px; }
+.newdesign .cover-letter-button.is-status-active { background-position: 0 -2450px; }
+.newdesign .cover-letter-button.is-status-pending { background-position: 0 -2500px; }
+.newdesign .cover-letter-button.is-status-holding { background-position: 0 -2550px; }
+.newdesign .cover-letter-button.is-status-halted { background-position: 0 -2600px; }
+.newdesign .application-button { background-position: 0 -2700px; }
+.newdesign .application-button.is-status-active { background-position: 0 -2750px; }
+.newdesign .application-button.is-status-pending { background-position: 0 -2800px; }
+.newdesign .application-button.is-status-holding { background-position: 0 -2850px; }
+.newdesign .application-button.is-status-halted { background-position: 0 -2900px; }
+.newdesign .interview-phone-screen-button { background-position: 0 -3000px; }
+.newdesign .interview-phone-screen-button.is-status-active { background-position: 0 -3050px; }
+.newdesign .interview-phone-screen-button.is-status-pending { background-position: 0 -3100px; }
+.newdesign .interview-phone-screen-button.is-status-holding { background-position: 0 -3150px; }
+.newdesign .interview-phone-screen-button.is-status-halted { background-position: 0 -3200px; }
+.newdesign .interview-achievements-button { background-position: 0 -3300px; }
+.newdesign .interview-achievements-button.is-status-active { background-position: 0 -3350px; }
+.newdesign .interview-achievements-button.is-status-pending { background-position: 0 -3400px; }
+.newdesign .interview-achievements-button.is-status-holding { background-position: 0 -3450px; }
+.newdesign .interview-achievements-button.is-status-halted { background-position: 0 -3500px; }
+.newdesign .interview-elements-button { background-position: 0 -3600px; }
+.newdesign .interview-elements-button.is-status-active { background-position: 0 -3650px; }
+.newdesign .interview-elements-button.is-status-pending { background-position: 0 -3700px; }
+.newdesign .interview-elements-button.is-status-holding { background-position: 0 -3750px; }
+.newdesign .interview-elements-button.is-status-halted { background-position: 0 -3800px; }
+.newdesign .references-button { background-position: 0 -3900px; }
+.newdesign .references-button.is-status-active { background-position: 0 -3950px; }
+.newdesign .references-button.is-status-pending { background-position: 0 -4000px; }
+.newdesign .references-button.is-status-holding { background-position: 0 -4050px; }
+.newdesign .references-button.is-status-halted { background-position: 0 -4100 px; }
+.newdesign .background-check-button { background-position: 0 -4200px; }
+.newdesign .background-check-button.is-status-active { background-position: 0 -4250px; }
+.newdesign .background-check-button.is-status-pending { background-position: 0 -4300px; }
+.newdesign .background-check-button.is-status-holding { background-position: 0 -4350px; }
+.newdesign .background-check-button.is-status-halted { background-position: 0 -4400px; }
+.newdesign .testing-button { background-position: 0 -4500px; }
+.newdesign .testing-button.is-status-active { background-position: 0 -4550px; }
+.newdesign .testing-button.is-status-pending { background-position: 0 -4600px; }
+.newdesign .testing-button.is-status-holding { background-position: 0 -4650px; }
+.newdesign .testing-button.is-status-halted { background-position: 0 -4700px; }
+.newdesign .is-status-scored { text-indent: 0; background: none; text-decoration: none; }
+.newdesign .is-status-scored:hover { text-decoration: underline; }
+.newdesign .score-display { position: relative; top: 0.2em; left: 0.2em; font-size: 15px; font-size: 1.5rem; }
+.newdesign .col-references .score-display { font-size: 11px; font-size: 1.1rem; }
+.newdesign .score-display-good { color: #3ebb05; }
+.newdesign .score-display-medium { color: #e7ae08; }
+.newdesign .score-display-bad { color: #ed3800; }
+.newdesign .col-survey .score-display { color: #333333; }
+.newdesign .status-descriptor { display: none; position: relative; padding-left: 2.8em; top: 0.5em; font-size: 11px; font-size: 1.1rem; }
+.newdesign .status-descriptor.is-visible { display: block; }
+.newdesign .candidate-info { position: relative; display: block; }
+.newdesign .candidate-full-name { margin-right: 0.8em; }
+.newdesign .candidate-review-contact { opacity: 0; position: absolute; top: -1em; margin-left: -5em; padding-right: 1em; }
+.newdesign .touch .candidate-review-contact { opacity: 1; }
+.newdesign tr:hover .candidate-review-contact { opacity: 1; }
+.newdesign .candidate-review-contact-email, .newdesign .candidate-review-contact-phone { display: block; float: left; width: 1.8em; height: 3.5em; background: url(../images/general/hireology-contact-sprites.png) no-repeat left top; }
+.newdesign .candidate-review-contact-email { background-position: 6px 16px; }
+.newdesign .candidate-review-contact-email:hover { background-position: 6px -34px; }
+.newdesign .candidate-review-contact-phone { background-position: 6px -84px; }
+.newdesign .candidate-review-contact-phone:hover { background-position: 6px -134px; }
+.newdesign .candidate-review-table.is-display-1 .candidate-full-name { display: block; }
+.newdesign .candidate-review-table.is-display-1 .candidate-review-contact { position: static; float: left; clear: left; opacity: 1; margin-top: -0.6em; margin-left: -0.4em; padding-right: 1em; }
+.newdesign .candidate-review-table.is-display-1 .candidate-review-contact a { padding-top: 0; height: 2.5em; }
+.newdesign .is-job-status-new .col-name { background: url(../images/general/candidate-job-status-new.png) no-repeat left center; }
+.newdesign .is-job-status-new .col-name a { color: #389900; }
+.newdesign .is-job-status-rejected .col-name a { color: #ed3800; }
+.newdesign .candidate-review-status-indicator { float: left; margin-right: 1em; margin-bottom: 0.4em; padding: 2px 3px 1px 3px; background-color: #aaaaaa; -moz-border-radius: 2px; -webkit-border-radius: 2px; border-radius: 2px; font-size: 9px; font-size: 0.9rem; color: white !important; text-transform: uppercase; text-decoration: none !important; }
+.newdesign .new-candidate-indicator { background-color: #4bcc00; }
+.newdesign .dataTables_wrapper { position: relative; clear: both; margin-bottom: 3em; zoom: 1; /* Feeling sorry for IE */ }
+.newdesign .dataTables_processing { position: absolute; top: 50%; left: 50%; width: 250px; height: 30px; margin-left: -125px; margin-top: -15px; padding: 14px 0 2px 0; border: 1px solid #dddddd; text-align: center; color: #999; font-size: 14px; background-color: white; }
+.newdesign .dataTables_length { position: absolute; bottom: 0; left: 0; }
+.newdesign .dataTables_filter { width: 50%; float: right; text-align: right; }
+.newdesign .dataTables_info { width: 60%; float: left; }
+.newdesign .dataTables_paginate { position: absolute; right: 0; bottom: 0; text-align: right; }
+.newdesign .paginate_disabled_previous, .newdesign .paginate_enabled_previous, .newdesign .paginate_disabled_next, .newdesign .paginate_enabled_next { height: 19px; float: left; cursor: pointer; *cursor: hand; color: #111111 !important; }
+.newdesign .paginate_disabled_previous:hover, .newdesign .paginate_enabled_previous:hover, .newdesign .paginate_disabled_next:hover, .newdesign .paginate_enabled_next:hover { text-decoration: none !important; }
+.newdesign .paginate_disabled_previous:active, .newdesign .paginate_enabled_previous:active, .newdesign .paginate_disabled_next:active, .newdesign .paginate_enabled_next:active { outline: none; }
+.newdesign .paginate_disabled_previous, .newdesign .paginate_disabled_next { display: none; color: #666666 !important; }
+.newdesign .paginate_disabled_previous, .newdesign .paginate_enabled_previous { padding-left: 23px; }
+.newdesign .paginate_disabled_next, .newdesign .paginate_enabled_next { padding-right: 23px; margin-left: 10px; }
+.newdesign .paginate_disabled_previous { background: url("datatables/images/back_disabled.png") no-repeat top left; }
+.newdesign .paginate_enabled_previous { background: url("datatables/images/back_enabled.png") no-repeat top left; }
+.newdesign .paginate_enabled_previous:hover { background: url("datatables/images/back_enabled_hover.png") no-repeat top left; }
+.newdesign .paginate_disabled_next { background: url("datatables/images/forward_disabled.png") no-repeat top right; }
+.newdesign .paginate_enabled_next { background: url("datatables/images/forward_enabled.png") no-repeat top right; }
+.newdesign .paginate_enabled_next:hover { background: url("datatables/images/forward_enabled_hover.png") no-repeat top right; }
+.newdesign table.display { margin: 0 auto; clear: both; width: 100%; /* Note Firefox 3.5 and before have a bug with border-collapse ( https://bugzilla.mozilla.org/show%5Fbug.cgi?id=155955 )  border-spacing: 0; is one possible option. Conditional-css.com is useful for this kind of thing  Further note IE 6/7 has problems when calculating widths with border width. It subtracts one px relative to the other browsers from the first column, and adds one to the end...  If you want that effect I'd suggest setting a border-top/left on th/td's and  then filling in the gaps with other borders. */ }
+.newdesign table.display thead th { cursor: pointer; * cursor: hand; }
+.newdesign .sorting_asc { background: url("datatables/images/sort_asc.png") no-repeat center right; }
+.newdesign .sorting_desc { background: url("datatables/images/sort_desc.png") no-repeat center right; }
+.newdesign .sorting:hover { background-image: url("datatables/images/sort_both.png"); background-position: center right; background-repeat: no-repeat; }
+.newdesign .candidate-review-table.is-display-1 .sorting_asc { background-position: right 0.95em; }
+.newdesign .candidate-review-table.is-display-1 .sorting_desc { background-position: right 0.95em; }
+.newdesign .candidate-review-table.is-display-1 .sorting:hover { background-position: right 0.95em; }
+.newdesign .sorting_asc_disabled { background: url("datatables/images/sort_asc_disabled.png") no-repeat center right; }
+.newdesign .sorting_desc_disabled { background: url("datatables/images/sort_desc_disabled.png") no-repeat center right; }
+.newdesign th:active { outline: none; }
+.newdesign tr.odd { background-color: #fff; }
+.newdesign tr.even { background-color: #fafafa; }
+.newdesign .dataTables_scroll { clear: both; }
+.newdesign .dataTables_scrollBody { *margin-top: -1px; -webkit-overflow-scrolling: touch; }
+.newdesign .top, .newdesign .bottom { padding: 15px; background-color: #F5F5F5; border: 1px solid #cccccc; }
+.newdesign .top .dataTables_info { float: none; }
+.newdesign .clear { clear: both; }
+.newdesign .dataTables_empty { text-align: center; }
+.newdesign tfoot input { margin: 0.5em 0; width: 100%; color: #444; }
+.newdesign tfoot input.search_init { color: #999; }
+.newdesign td.group { background-color: #d1cfd0; border-bottom: 2px solid #a19b9e; border-top: 2px solid #a19b9e; }
+.newdesign td.details { background-color: #d1cfd0; border: 2px solid #a19b9e; }
+.newdesign .example_alt_pagination div.dataTables_info { width: 40%; }
+.newdesign .paging_full_numbers { width: 400px; height: 22px; line-height: 22px; }
+.newdesign .paging_full_numbers a:active { outline: none; }
+.newdesign .paging_full_numbers a:hover { text-decoration: none; }
+.newdesign .paging_full_numbers a.paginate_button, .newdesign .paging_full_numbers a.paginate_active { border: 1px solid #aaaaaa; -webkit-border-radius: 5px; -moz-border-radius: 5px; padding: 2px 5px; margin: 0 3px; cursor: pointer; *cursor: hand; color: #333333 !important; }
+.newdesign .paging_full_numbers a.paginate_button { background-color: #ddd; }
+.newdesign .paging_full_numbers a.paginate_button:hover { background-color: #ccc; text-decoration: none !important; }
+.newdesign .paging_full_numbers a.paginate_active { background-color: #99B3FF; }
+.newdesign table.display tr.even.row_selected td { background-color: #B0BED9; }
+.newdesign table.display tr.odd.row_selected td { background-color: #9FAFD1; }
+.newdesign tr.odd td.sorting_1 { background-color: #fbfbfb; }
+.newdesign .ex_highlight #example tbody tr.even:hover, .newdesign #example tbody tr.even td.highlighted { background-color: #ECFFB3; }
+.newdesign .ex_highlight #example tbody tr.odd:hover, .newdesign #example tbody tr.odd td.highlighted { background-color: #E6FF99; }
+.newdesign .ex_highlight_row #example tr.even:hover { background-color: #ECFFB3; }
+.newdesign .ex_highlight_row #example tr.even:hover td.sorting_1 { background-color: #DDFF75; }
+.newdesign .ex_highlight_row #example tr.even:hover td.sorting_2 { background-color: #E7FF9E; }
+.newdesign .ex_highlight_row #example tr.even:hover td.sorting_3 { background-color: #E2FF89; }
+.newdesign .ex_highlight_row #example tr.odd:hover { background-color: #E6FF99; }
+.newdesign .ex_highlight_row #example tr.odd:hover td.sorting_1 { background-color: #D6FF5C; }
+.newdesign .ex_highlight_row #example tr.odd:hover td.sorting_2 { background-color: #E0FF84; }
+.newdesign .ex_highlight_row #example tr.odd:hover td.sorting_3 { background-color: #DBFF70; }
+.newdesign table.KeyTable td { border: 3px solid transparent; }
+.newdesign table.KeyTable td.focus { border: 3px solid #3366ff; }
+.newdesign table.display tr.gradeA { background-color: #eeffee; }
+.newdesign table.display tr.gradeC { background-color: #ddddff; }
+.newdesign table.display tr.gradeX { background-color: #ffdddd; }
+.newdesign table.display tr.gradeU { background-color: #ddd; }
+.newdesign div.box { height: 100px; padding: 10px; overflow: auto; border: 1px solid #8080ff; background-color: #E5E5FF; }
+.newdesign .rating-control { margin-left: -0.5em; width: 6.6em; height: 2em; position: relative; }
+.newdesign .rating-control > span { display: block; float: left; width: 1.3em; height: 2em; cursor: pointer; background-position: unchanged unchanged; /* High-res sprites */ background-repeat: no-repeat; background-position: 0.1em -1300px; }
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 144dpi) { .newdesign .rating-control > span { /* Ideally these would be used with @extend .sprite-highres, but Sass doesn't currently support @extend in Media Queries */ background-image: url(../images/general/hireology-sprites@2x.png); -moz-background-size: 100px auto; -webkit-background-size: 100px auto; background-size: 100px auto; } }
+.newdesign .rating-control .star-notes { display: none; position: absolute; top: -1px; left: -28px; width: 28px; height: 2em; background-color: white; background-position: 7px -996px; border-width: 1px 0 1px 1px; border-style: solid; border-color: #ddd; -webkit-border-top-left-radius: 5px; -webkit-border-top-right-radius: 0; -webkit-border-bottom-right-radius: 0; -webkit-border-bottom-left-radius: 5px; -moz-border-radius-topleft: 5px; -moz-border-radius-topright: 0; -moz-border-radius-bottomright: 0; -moz-border-radius-bottomleft: 5px; border-top-left-radius: 5px; border-top-right-radius: 0; border-bottom-right-radius: 0; border-bottom-left-radius: 5px; z-index: 30; }
+.newdesign .rating-control div.add-star-notes { display: none; position: absolute; top: 2em; left: -3em; width: 12.6em; padding: 0.3em; background-color: white; border: 1px solid #dddddd; -moz-border-radius: 5px; -webkit-border-radius: 5px; border-radius: 5px; z-index: 29; }
+.newdesign .rating-control div.add-star-notes textarea { width: 100%; height: 5.5em; margin: 0.3em 0; padding: 0.3em; background-color: #f7f7f7; -moz-box-shadow: inset 1px 1px 5px rgba(0, 0, 0, 0.07); -o-box-shadow: inset 1px 1px 5px rgba(0, 0, 0, 0.07); -webkit-box-shadow: inset 1px 1px 5px rgba(0, 0, 0, 0.07); box-shadow: inset 1px 1px 5px rgba(0, 0, 0, 0.07); border: solid 1px #bdbdbd; -moz-border-radius: 5px; -webkit-border-radius: 5px; border-radius: 5px; resize: none; font-size: 14px; font-size: 1.4rem; line-height: 1.1; -moz-transition: background-color 0.3s; -o-transition: background-color 0.3s; -webkit-transition: background-color 0.3s; -ms-transition: background-color 0.3s; transition: background-color 0.3s; }
+.newdesign .rating-control div.add-star-notes textarea:focus { background-color: #fdfdfd; }
+.newdesign .rating-control div.add-star-notes a.submit-star-note { background-position: 0 -600px; /* High-res sprites */ background-position: 0 -595px; padding: 0.46em 0 0.4em 1.4em; }
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 144dpi) { .newdesign .rating-control div.add-star-notes a.submit-star-note { /* Ideally these would be used with @extend .sprite-highres, but Sass doesn't currently support @extend in Media Queries */ background-image: url(../images/general/hireology-sprites@2x.png); -moz-background-size: 100px auto; -webkit-background-size: 100px auto; background-size: 100px auto; } }
+.newdesign .rating-control div.add-star-notes a.cancel-star-note { color: #ed3800; }
+.newdesign .rating-control.rating-1 .star-1 { background-position: 0.1em -1350px; }
+.newdesign .rating-control.rating-2 .star-1, .newdesign .rating-control.rating-2 .star-2 { background-position: 0.1em -1350px; }
+.newdesign .rating-control.rating-3 .star-1, .newdesign .rating-control.rating-3 .star-2, .newdesign .rating-control.rating-3 .star-3 { background-position: 0.1em -1350px; }
+.newdesign .rating-control.rating-4 .star-1, .newdesign .rating-control.rating-4 .star-2, .newdesign .rating-control.rating-4 .star-3, .newdesign .rating-control.rating-4 .star-4 { background-position: 0.1em -1350px; }
+.newdesign .rating-control.rating-5 .star-1, .newdesign .rating-control.rating-5 .star-2, .newdesign .rating-control.rating-5 .star-3, .newdesign .rating-control.rating-5 .star-4, .newdesign .rating-control.rating-5 .star-5 { background-position: 0.1em -1400px; }
+.newdesign .rating-control:hover, .newdesign .rating-control.is-expanded { top: -1px; background-color: white; border-width: 1px 1px 1px 0; border-style: solid; border-color: #ddd; -webkit-border-top-left-radius: 0; -webkit-border-top-right-radius: 5px; -webkit-border-bottom-right-radius: 5px; -webkit-border-bottom-left-radius: 0; -moz-border-radius-topleft: 0; -moz-border-radius-topright: 5px; -moz-border-radius-bottomright: 5px; -moz-border-radius-bottomleft: 0; border-top-left-radius: 0; border-top-right-radius: 5px; border-bottom-right-radius: 5px; border-bottom-left-radius: 0; }
+.newdesign .rating-control:hover .star-notes, .newdesign .rating-control.is-expanded .star-notes { display: block; }
+.newdesign .rating-control.hover-rating-0 .star-notes, .newdesign .rating-control.is-expanded .star-notes { background-position: 7px -946px; }
+.newdesign .rating-control.hover-rating-1 .star-1 { background-position: 0.1em -1350px; }
+.newdesign .rating-control.hover-rating-1 .star-2, .newdesign .rating-control.hover-rating-1 .star-3, .newdesign .rating-control.hover-rating-1 .star-4, .newdesign .rating-control.hover-rating-1 .star-5 { background-position: 0.1em -1300px; }
+.newdesign .rating-control.hover-rating-2 .star-1, .newdesign .rating-control.hover-rating-2 .star-2 { background-position: 0.1em -1350px; }
+.newdesign .rating-control.hover-rating-2 .star-3, .newdesign .rating-control.hover-rating-2 .star-4, .newdesign .rating-control.hover-rating-2 .star-5 { background-position: 0.1em -1300px; }
+.newdesign .rating-control.hover-rating-3 .star-1, .newdesign .rating-control.hover-rating-3 .star-2, .newdesign .rating-control.hover-rating-3 .star-3 { background-position: 0.1em -1350px; }
+.newdesign .rating-control.hover-rating-3 .star-4, .newdesign .rating-control.hover-rating-3 .star-5 { background-position: 0.1em -1300px; }
+.newdesign .rating-control.hover-rating-4 .star-1, .newdesign .rating-control.hover-rating-4 .star-2, .newdesign .rating-control.hover-rating-4 .star-3, .newdesign .rating-control.hover-rating-4 .star-4 { background-position: 0.1em -1350px; }
+.newdesign .rating-control.hover-rating-4 .star-5 { background-position: 0.1em -1300px; }
+.newdesign .rating-control.hover-rating-5 .star-1, .newdesign .rating-control.hover-rating-5 .star-2, .newdesign .rating-control.hover-rating-5 .star-3, .newdesign .rating-control.hover-rating-5 .star-4, .newdesign .rating-control.hover-rating-5 .star-5 { background-position: 0.1em -1400px; }
+.newdesign .rating-control.is-expanded .star-notes { border-right-width: 1px; border-bottom-color: white; -webkit-border-top-left-radius: 5px; -webkit-border-top-right-radius: 0; -webkit-border-bottom-right-radius: 0; -webkit-border-bottom-left-radius: 0; -moz-border-radius-topleft: 5px; -moz-border-radius-topright: 0; -moz-border-radius-bottomright: 0; -moz-border-radius-bottomleft: 0; border-top-left-radius: 5px; border-top-right-radius: 0; border-bottom-right-radius: 0; border-bottom-left-radius: 0; }
+.newdesign .rating-control.is-expanded div.add-star-notes { display: block; }
+.newdesign .hireology-tooltip { position: absolute; top: -9999px; left: -9999px; z-index: 9999; padding: 0.8em; background-color: #fff; -webkit-box-shadow: 0 0 3px #aaaaaa; -moz-box-shadow: 0 0 3px #aaaaaa; box-shadow: 0 0 3px #aaaaaa; -moz-transition: opacity 0.2s ease-out 0.8s, -webkit-transform 0.1s ease-out 0.8s; -o-transition: opacity 0.2s ease-out 0.8s, -webkit-transform 0.1s ease-out 0.8s; -webkit-transition: opacity 0.2s ease-out 0.8s, -webkit-transform 0.1s ease-out 0.8s; -ms-transition: opacity 0.2s ease-out 0.8s, -webkit-transform 0.1s ease-out 0.8s; transition: opacity 0.2s ease-out 0.8s, -webkit-transform 0.1s ease-out 0.8s; font-size: 13px; font-size: 1.3rem; -webkit-transform-origin: 0 100% 0; -moz-transform-origin: 0 100% 0; transform-origin: 0 100% 0; }
+.newdesign .hireology-tooltip.is-hidden { opacity: 0; -webkit-transform: scale3d(0.6, 0.6, 0.6); -moz-transform: scale3d(0.6, 0.6, 0.6); transform: scale3d(0.6, 0.6, 0.6); -moz-transition: none; -o-transition: none; -webkit-transition: none; -ms-transition: none; transition: none; }
+.newdesign .hireology-tooltip.is-staying-active { -moz-transition: none; -o-transition: none; -webkit-transition: none; -ms-transition: none; transition: none; }
+.newdesign .member-header { display: inline-block; min-width: 243px; height: 40px; background-color: #fff; -webkit-box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.1); -moz-box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.1); box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.1); border: solid 1px #adadad; -moz-border-radius: 3px; -webkit-border-radius: 3px; border-radius: 3px; }
+.newdesign .member-header h2, .newdesign .member-header h3 { float: left; }
+.newdesign .member-header h2 { min-width: 8em; margin-top: 0.8em; padding-right: 1em; font-size: 13px; font-size: 1.3rem; }
+.newdesign .member-header h3 { margin-top: 1.05em; font-size: 11px; font-size: 1.1rem; color: #009dff; }
+.newdesign .member-header-photo { overflow: hidden; margin-top: -1px; margin-left: -1px; margin-right: 1.2em; width: 40px; height: 40px; float: left; border: solid 1px rgba(0, 0, 0, 0.2); border-right: none; -webkit-border-top-left-radius: 3px; -webkit-border-top-right-radius: 0; -webkit-border-bottom-right-radius: 0; -webkit-border-bottom-left-radius: 3px; -moz-border-radius-topleft: 3px; -moz-border-radius-topright: 0; -moz-border-radius-bottomright: 0; -moz-border-radius-bottomleft: 3px; border-top-left-radius: 3px; border-top-right-radius: 0; border-bottom-right-radius: 0; border-bottom-left-radius: 3px; background-position: left -3895px; /* High-res sprites */ }
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 144dpi) { .newdesign .member-header-photo { /* Ideally these would be used with @extend .sprite-highres, but Sass doesn't currently support @extend in Media Queries */ background-image: url(../images/general/hireology-sprites@2x.png); -moz-background-size: 100px auto; -webkit-background-size: 100px auto; background-size: 100px auto; } }
+.newdesign .department-details { line-height: 1.7; width: 80%; }
+.newdesign .department-details h1 { margin-top: 2em; }
+.newdesign .department-details p, .newdesign .department-details ul { margin-top: 1em; }
+.newdesign .department-details li { background: url(../images/general/department-details-bullet.png) no-repeat left 0.65em; padding-left: 1.1em; }
+.newdesign .department-details-file-attachments li { padding-left: 0; }
+.newdesign .job-details-highlights { max-width: 60em; margin-bottom: 3.3em; padding: 1em 1.2em 0.9em 1.2em; background-color: #fff; -webkit-box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.05); -moz-box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.05); box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.05); border: solid 1px #d9d9d9; -moz-border-radius: 2px; -webkit-border-radius: 2px; border-radius: 2px; font-size: 13px; font-size: 1.3rem; color: #777; }
+.newdesign .job-highlight { display: block; float: left; padding-left: 1.7em; background-position: left -6400px; /* High-res sprites */ }
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 144dpi) { .newdesign .job-highlight { /* Ideally these would be used with @extend .sprite-highres, but Sass doesn't currently support @extend in Media Queries */ background-image: url(../images/general/hireology-sprites@2x.png); -moz-background-size: 100px auto; -webkit-background-size: 100px auto; background-size: 100px auto; } }
+.newdesign .job-highlight + .job-highlight { margin-left: 7%; }
+.newdesign .job-highlight-location { background-position: left -6400px; }
+.newdesign .job-highlight-pay { background-position: left -6450px; }
+.newdesign .job-highlight-remote { background-position: left -6500px; }
+.newdesign .job-highlight-moving { background-position: left -6550px; }
+.newdesign .department-history { margin-top: 4em; max-width: 60em; background: url(../images/general/department-history-timeline.png) repeat-y center top; }
+.newdesign .incident { padding-bottom: 1.6em; background: white url(../images/general/history-graphic-status-change.png) no-repeat 6% 2em; border: solid 1px #cccccc; -moz-border-radius: 2px; -webkit-border-radius: 2px; border-radius: 2px; }
+.newdesign .incident p { margin-left: 6%; margin-right: 6%; margin-bottom: 1.0em; line-height: 1.6; }
+.newdesign .incident .member-header { min-width: 22em; position: relative; left: 50%; top: -1.45em; margin-left: -11em; }
+.newdesign .incident .member-header h2 { min-width: 10em; }
+.newdesign .incident + .incident { margin-top: 7em; }
+.newdesign .incident-summary { text-align: center; }
+.newdesign .incident-summary-comment { padding-top: 1.4em; padding-bottom: 0.5em; }
+.newdesign .incident-status-change { background-image: url(../images/general/history-graphic-status-change.png); }
+.newdesign .incident-comment { background-image: url(../images/general/history-graphic-comment.png); }
+.newdesign .incident-add-member { background-image: url(../images/general/history-graphic-add-member.png); }
+.newdesign .incident-add-task { background-image: url(../images/general/history-graphic-add-task.png); }
+.newdesign .incident-remove-task { background-image: url(../images/general/history-graphic-remove-task.png); }
+.newdesign .candidate-job-status-review { max-width: 60em; margin-top: 2.5em; background-color: #fff; border: solid 1px #cccccc; -moz-border-radius: 2px; -webkit-border-radius: 2px; border-radius: 2px; }
+.newdesign .shared-container, .newdesign .candidate-job-status-review-header, .newdesign .candidate-job-recommended-tests, .newdesign .candidate-job-status-review-phase ul { padding: 1.8em 1em 1.8em 2.5em; }
+.newdesign .candidate-job-status-review-header { position: relative; padding-bottom: 1.2em; border-bottom: 1px solid #dddddd; }
+.newdesign .candidate-job-status-review-header h1 { margin-bottom: 0.9em; font-size: 20px; font-size: 2rem; color: #4bcc00; }
+.newdesign .candidate-job-status-review-header h1 a { color: inherit; text-decoration: none; }
+.newdesign .job-status-hired-banner { margin-left: 1em; padding: 0.4em 0.7em; background-color: #4bcc00; -moz-border-radius: 2px; -webkit-border-radius: 2px; border-radius: 2px; color: #fff; font-size: 13px; font-size: 1.3rem; }
+.newdesign .candidate-job-status-review-controls { position: absolute; top: 0; right: 0; padding: 0.7em 0 0.6em 1.5em; border: solid 1px #dddddd; border-top: none; border-right: none; -moz-border-radius: 2px; -webkit-border-radius: 2px; border-radius: 2px; min-width: 18.1em; }
+.newdesign .candidate-job-status-review-controls .rating-control { float: left; margin-right: 1.5em; }
+.newdesign .candidate-job-status-review-controls .reject-candidate-button, .newdesign .candidate-job-status-review-controls .unreject-candidate-button { float: left; margin-right: 0.8em; }
+.newdesign .candidate-job-status-review-controls .btn-hire { float: left; }
+.newdesign .candidate-job-recommended-tests { padding-bottom: 2.5em; background-color: #f2f2f2; }
+.newdesign .candidate-job-recommended-tests h1 { margin-bottom: 1.5em; }
+.newdesign .candidate-job-recommended-tests .multiselect { margin-bottom: 1.4em; }
+.newdesign .candidate-job-recommended-tests .multiselect-option { padding-right: 4em; position: relative; }
+.newdesign .candidate-job-recommended-tests .test-preview-link { position: absolute; display: block; top: 0.35em; right: 0.4em; width: 1.5em; height: 1.5em; background-position: 0 -700px; /* High-res sprites */ }
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 144dpi) { .newdesign .candidate-job-recommended-tests .test-preview-link { /* Ideally these would be used with @extend .sprite-highres, but Sass doesn't currently support @extend in Media Queries */ background-image: url(../images/general/hireology-sprites@2x.png); -moz-background-size: 100px auto; -webkit-background-size: 100px auto; background-size: 100px auto; } }
+.newdesign .candidate-job-recommended-tests .test-preview-link:hover { background-position: 0 -750px; }
+.newdesign .candidate-job-recommended-tests .testing-learn-more-link { font-size: 13px; font-size: 1.3rem; color: #009dff; margin-left: 1em; }
+.newdesign .testing-more-link { margin-left: 1em; font-size: 13px; font-size: 1.3rem; color: #009dff; }
+.newdesign .testing-more-link:hover { color: #333333; }
+.newdesign .candidate-job-status-review-phase { position: relative; font-size: 13px; font-size: 1.3rem; }
+.newdesign .candidate-job-status-review-phase a { width: 100%; float: left; text-decoration: none; }
+.newdesign .candidate-job-status-review-phase a:hover { text-decoration: underline; color: #333333; }
+.newdesign .candidate-job-status-review-phase a > span { padding-top: 0.4em; display: block; }
+.newdesign .candidate-job-status-review-phase .candidate-review-button { padding-left: 3em; }
+.newdesign .candidate-job-status-review-phase li { padding-bottom: 1em; padding-left: 2.4em; }
+.newdesign .candidate-job-status-review-phase .is-complete { background-position: left -6946px; /* High-res sprites */ }
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 144dpi) { .newdesign .candidate-job-status-review-phase .is-complete { /* Ideally these would be used with @extend .sprite-highres, but Sass doesn't currently support @extend in Media Queries */ background-image: url(../images/general/hireology-sprites@2x.png); -moz-background-size: 100px auto; -webkit-background-size: 100px auto; background-size: 100px auto; } }
+.newdesign .candidate-job-status-review-step-name { float: left; min-width: 13em; }
+.newdesign .candidate-job-status-review-step-status { float: left; min-width: 13em; }
+.newdesign .candidate-job-status-review-step-view { float: right; margin-right: 2em; color: #aaaaaa; text-decoration: underline; }
+.newdesign .candidate-job-status-review-phase-header { background-color: #999999; padding: 1.1em 1em 1em 2.5em; text-transform: uppercase; color: #fff; }
+.newdesign .candidate-job-status-review-phase-header .phase-list-number { background-color: #fff; }
+.newdesign ul.listless { list-style-type: none; }
+.newdesign ul.listless li { background-image: none; padding-left: 0; }
+.newdesign .quickview-toolbar { z-index: 10000; background-color: #fff; height: 6em; position: fixed; width: 100%; top: 0; padding: 2em; display: none; -webkit-box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5); -moz-box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5); box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5); -webkit-transform: translateY(-8em); -moz-transform: translateY(-8em); transform: translateY(-8em); -moz-transition: 0.4s; -o-transition: 0.4s; -webkit-transition: 0.4s; -ms-transition: 0.4s; transition: 0.4s; font-size: 13px; font-size: 1.3rem; }
+.newdesign .quickview-toolbar h1 { font-size: 18px; font-size: 1.8rem; float: left; }
+.newdesign .quickview-toolbar span.applied-from { font-size: 14px; font-size: 1.4rem; margin: 2px 0 0 10px; margin-top: 0.2rem; float: left; }
+.newdesign .no-csstransforms .quickview-toolbar { top: -8em; }
+.newdesign .quickview-toolbar.is-visible { display: block; top: 0; -webkit-transform: translateY(0); -moz-transform: translateY(0); transform: translateY(0); }
+.newdesign .quickview-toolbar-review-controls { float: right; }
+.newdesign .quickview-toolbar-review-controls .rating-control { float: left; margin-right: 1.5em; }
+.newdesign .quickview-toolbar-review-controls .reject-candidate-button, .newdesign .quickview-toolbar-review-controls .unreject-candidate-button { float: right; margin-right: 0.8em; }
+.newdesign .quickview-review-change-links { float: right; margin-top: -0.3em; margin-right: 1.5em; }
+.newdesign .quickview-review-change-link { display: block; float: left; width: 2.2em; height: 2.5em; background-position: unchanged unchanged; /* High-res sprites */ }
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 144dpi) { .newdesign .quickview-review-change-link { /* Ideally these would be used with @extend .sprite-highres, but Sass doesn't currently support @extend in Media Queries */ background-image: url(../images/general/hireology-sprites@2x.png); -moz-background-size: 100px auto; -webkit-background-size: 100px auto; background-size: 100px auto; } }
+.newdesign .quickview-review-change-previous { background-position: 4px -294px; }
+.newdesign .quickview-review-change-next { background-position: 4px -344px; }
+.newdesign .guide-status-scheuling { float: right; }
+.newdesign .guide-status-scheuling input { margin-right: 2em; }
+.newdesign .guide-status-scheuling #guide-schedule-date { font-size: 13px; font-size: 1.3rem; padding: 0.3em 0.5em 0.3em 2em; background-position: 6px -1047px; /* High-res sprites */ }
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 144dpi) { .newdesign .guide-status-scheuling #guide-schedule-date { /* Ideally these would be used with @extend .sprite-highres, but Sass doesn't currently support @extend in Media Queries */ background-image: url(../images/general/hireology-sprites@2x.png); -moz-background-size: 100px auto; -webkit-background-size: 100px auto; background-size: 100px auto; } }
+.newdesign .quickview-candidate-communication-dropdown { position: static !important; visibility: visible !important; margin-right: 2em; }
+.newdesign .btn-quickview-done { float: right; min-width: 0; margin-top: -0.3em; }
+.newdesign .btn-quickview-send-survey, .newdesign .btn-quickview-send-application { background-image: url(../images/general/hireology-contact-sprites.png); background-repeat: no-repeat; background-position: 6px 10px; margin-right: 2em; min-width: 0; padding-left: 30px; margin-top: -0.3em; display: inline-block; }
+.newdesign .btn-quickview-send-survey:hover, .newdesign .btn-quickview-send-application:hover { background-position: 6px -40px; }
+.newdesign .quickview-documentbar { position: relative; padding: 2em; padding-bottom: 1.8em; background-color: #ececec; font-size: 13px; font-size: 1.3rem; }
+.newdesign .quickview-documentbar-dropdown { position: static !important; visibility: visible !important; margin-right: 2em; }
+.newdesign .quickview-documentbar .remove-existing-file { float: right; }
+.newdesign .quickview-documentbar .remove-existing-file:hover { color: #ed3800; }
+.newdesign .btn-print-guide { padding-left: 1.7em; background-position: unchanged unchanged; /* High-res sprites */ background-position: 9px -644px; float: left; }
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 144dpi) { .newdesign .btn-print-guide { /* Ideally these would be used with @extend .sprite-highres, but Sass doesn't currently support @extend in Media Queries */ background-image: url(../images/general/hireology-sprites@2x.png); -moz-background-size: 100px auto; -webkit-background-size: 100px auto; background-size: 100px auto; } }
+.newdesign .quickview-documentbar .upload-guide-notes { float: right; margin-top: 0.5em; }
+.newdesign .quickview-documentbar .upload-guide-notes h3, .newdesign .quickview-documentbar .upload-guide-notes input { float: left; }
+.newdesign .quickview-documentbar .upload-guide-notes h3 { margin-right: 0.6em; margin-top: 0.16em; }
+.newdesign .uploaded-guide-notes { float: right; -moz-border-radius: 3px; -webkit-border-radius: 3px; border-radius: 3px; cursor: pointer; -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.06); -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.06); box-shadow: 0 1px 3px rgba(0, 0, 0, 0.06); margin-right: 1.5em; }
+.newdesign .uploaded-guide-notes h3, .newdesign .uploaded-guide-notes ul { width: 15em; border: solid 1px #cccccc; background-color: #fcfcfc; padding: 0.6em 1em; }
+.newdesign .uploaded-guide-notes h3 { background: #fcfcfc url(../images/general/inactive-candidate-collapse.png) no-repeat 13em -29px; }
+.newdesign .uploaded-guide-notes ul { position: absolute; padding-top: 1em; display: none; border-top: none; }
+.newdesign .uploaded-guide-notes:hover ul { display: block; }
+.newdesign .quickview-content-guide { padding: 3em; }
+.newdesign .quickview-content-guide h2 { font-size: 16px; font-size: 1.6rem; }
+.newdesign .file { display: inline-block; margin-left: -0.6em; padding: 0.6em 0.6em 0.6em 2.8em; font-size: 13px; font-size: 1.3rem; background-position: left -5550px; /* High-res sprites */ color: #333333; text-decoration: none; }
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 144dpi) { .newdesign .file { /* Ideally these would be used with @extend .sprite-highres, but Sass doesn't currently support @extend in Media Queries */ background-image: url(../images/general/hireology-sprites@2x.png); -moz-background-size: 100px auto; -webkit-background-size: 100px auto; background-size: 100px auto; } }
+.newdesign .file:hover { text-decoration: underline; }
+.newdesign .file-pdf { background-position: left -5550px; }
+.newdesign .comments { max-width: 60em; position: relative; clear: both; }
+.newdesign .comments h1 { margin-top: 3em; font-size: 16px; font-size: 1.6rem; color: #009dff; }
+.newdesign .comment { margin-top: 2em; padding-bottom: 1.6em; background-color: #fff; border: solid 1px #cccccc; -moz-border-radius: 2px; -webkit-border-radius: 2px; border-radius: 2px; }
+.newdesign .comment p { max-width: 50em; margin-left: 3em; margin-right: 3.5em; margin-bottom: 1.0em; line-height: 1.6; }
+.newdesign .comment .member-header { margin-top: 1.5em; margin-left: -1em; margin-bottom: 1em; }
+.newdesign .comment-form { margin-top: 2em; }
+.newdesign .comment-form label { font-size: 16px; font-size: 1.6rem; }
+.newdesign .comment-form .comment-text { margin-top: 1.5em; margin-bottom: 1.4em; width: 100%; padding: 2.3em 3em 5em 3em; background-color: #f7f7f7; -moz-box-shadow: inset 1px 1px 5px rgba(0, 0, 0, 0.07); -o-box-shadow: inset 1px 1px 5px rgba(0, 0, 0, 0.07); -webkit-box-shadow: inset 1px 1px 5px rgba(0, 0, 0, 0.07); box-shadow: inset 1px 1px 5px rgba(0, 0, 0, 0.07); border: solid 1px #bdbdbd; -moz-border-radius: 5px; -webkit-border-radius: 5px; border-radius: 5px; resize: none; font-size: 14px; font-size: 1.4rem; line-height: 1.6; -moz-transition: background-color 0.3s; -o-transition: background-color 0.3s; -webkit-transition: background-color 0.3s; -ms-transition: background-color 0.3s; transition: background-color 0.3s; }
+.newdesign .comment-form .comment-text:focus { background-color: #fdfdfd; }
+.newdesign .btn-attach-files { position: absolute; bottom: 4em; left: 3.1em; }
+.newdesign .comment-notifications-message { float: left; font-size: 13px; font-size: 1.3rem; }
+.newdesign .comment-notifications-message p { line-height: 1.7; margin-bottom: 0.7em; }
+.newdesign .comment-notifications-message .multiselect { clear: left; }
+.newdesign .btn-add-comment { float: right; }
+.newdesign .comment-files { margin-left: 3em; margin-right: 3.5em; padding-top: 0.5em; }
+.newdesign .multiselect-option { float: left; min-width: 11em; margin-right: 0.6em; margin-bottom: 0.6em; padding: 0.4em 2.2em 0.3em 2.2em; -moz-border-radius: 3px; -webkit-border-radius: 3px; border-radius: 3px; border: solid 1px #d6d6d6; cursor: pointer; background-position: 7px -6793px; /* High-res sprites */ font-size: 13px; font-size: 1.3rem; color: #aaaaaa; }
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 144dpi) { .newdesign .multiselect-option { /* Ideally these would be used with @extend .sprite-highres, but Sass doesn't currently support @extend in Media Queries */ background-image: url(../images/general/hireology-sprites@2x.png); -moz-background-size: 100px auto; -webkit-background-size: 100px auto; background-size: 100px auto; } }
+.newdesign .multiselect-option.is-selected { background-color: #fff; color: #333333; background-position: 7px -6843px; border-color: #aaaaaa; }
+.newdesign .multiselect-option:hover { border-color: #aaaaaa; color: #333333; }
+.newdesign .multiselect-option.is-selected:hover { border-color: #777777; }
+.newdesign .dk_container.dk_theme_sorting { background-color: #fff; margin-top: -0.5em; margin-right: 1em; margin-bottom: 18px; }
+.newdesign .dk_container.dk_theme_sorting:focus { outline: 0; }
+.newdesign .dk_container.dk_theme_sorting a { cursor: pointer; text-decoration: none; }
+.newdesign .dk_theme_sorting .dk_toggle { width: 17em; background-image: url("dropkick/images/dk_arrows.png"); background-repeat: no-repeat; background-position: 0.8em 48%; border: 1px solid white; color: #333333; padding: 0.8em 1em 0.8em 2em; }
+.newdesign .dk_theme_sorting .dk_toggle:hover { border-color: #d9d9d9; }
+.newdesign .dk_theme_sorting .dk_focus .dk_toggle { border-color: #aaaaaa; }
+.newdesign .dk_open.dk_theme_sorting { /** Help: Dropdown menu is covered by something Try setting this value higher */ z-index: 10; }
+.newdesign .dk_open.dk_theme_sorting .dk_toggle { border-color: #aaaaaa; -webkit-box-shadow: 0 0 6px rgba(0, 0, 0, 0.2); -moz-box-shadow: 0 0 6px rgba(0, 0, 0, 0.2); box-shadow: 0 0 6px rgba(0, 0, 0, 0.2); }
+.newdesign .dk_theme_sorting .dk_options a { background-color: #fff; color: #333333; font-size: 13px; font-size: 1.3rem; padding: 8px 0.8em; }
+.newdesign .dk_theme_sorting .dk_options a:hover { background-color: #ececec; }
+.newdesign .dk_theme_sorting .dk_options .dk_option_current a { background-color: #aaa; color: #fff; text-decoration: none; }
+.newdesign .dk_theme_sorting .dk_options_inner { border: 1px solid #aaaaaa; border-top-color: #ccc; color: #333; max-height: 250px; -webkit-box-shadow: 0 0 6px rgba(0, 0, 0, 0.2); -moz-box-shadow: 0 0 6px rgba(0, 0, 0, 0.2); box-shadow: 0 0 6px rgba(0, 0, 0, 0.2); }
+.newdesign .dk_theme_sorting .dk_options_inner, .newdesign .dk_theme_sorting .dk_touch .dk_options { max-height: 250px; }
+.newdesign .dk_container { display: none; float: left; position: relative; }
+.newdesign .dk_container a { outline: 0; }
+.newdesign .dk_toggle { display: -moz-inline-stack; display: inline-block; *display: inline; position: relative; zoom: 1; }
+.newdesign .dk_open { position: relative; }
+.newdesign .dk_open .dk_options { display: block; }
+.newdesign .dk_open .dk_label { color: inherit; }
+.newdesign .dk_options { display: none; margin-top: -1px; position: absolute; right: 0; width: 100%; }
+.newdesign .dk_options a, .newdesign .dk_options a:link, .newdesign .dk_options a:visited { display: block; }
+.newdesign .dk_options_inner { overflow: auto; position: relative; }
+.newdesign .dk_touch .dk_options { overflow: hidden; }
+.newdesign .dk_touch .dk_options_inner { max-height: none; overflow: visible; }
+.newdesign .dk_fouc select { position: relative; top: -99999em; visibility: hidden; }
+.newdesign .kalendae { display: inline-block; zoom: 1; *display: inline; background: #eee; padding: 10px; margin: 5px; border-radius: 5px; -moz-border-radius: 5px; -webkit-border-radius: 5px; font-size: 11px; font-family: "Helvetica Neue", "Helvetica"; cursor: default; position: relative; }
+.newdesign .kalendae.k-floating { position: absolute; top: 0; left: 0; z-index: 100000; margin: 0; box-shadow: 0 1px 3px rgba(0, 0, 0, 0.75); -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.75); -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.75); }
+.newdesign .kalendae .k-btn-close { position: absolute; top: -8px; right: -8px; width: 16px; height: 16px; background: white; border: 2px solid #cccccc; color: #999; line-height: 17px; text-align: center; font-size: 13px; border-radius: 10px; box-shadow: 0 1px 3px rgba(0, 0, 0, 0.75); cursor: pointer; }
+.newdesign .kalendae .k-btn-close:after { content: "\2716"; }
+.newdesign .kalendae .k-btn-close:hover { color: #7EA0E2; background: white; border-color: #7EA0E2; }
+.newdesign .kalendae .k-calendar { display: inline-block; zoom: 1; *display: inline; width: 155px; vertical-align: top; }
+.newdesign .kalendae .k-separator { display: inline-block; zoom: 1; *display: inline; width: 2px; vertical-align: top; background: #ddd; height: 155px; margin: 0px 10px; }
+.newdesign .kalendae .k-title { text-align: center; white-space: nowrap; position: relative; height: 24px; }
+.newdesign .kalendae .k-caption { font-size: 12px; line-height: 18px; }
+.newdesign .kalendae .k-header { height: 20px; }
+.newdesign .kalendae .k-btn-previous-month, .newdesign .kalendae .k-btn-next-month, .newdesign .kalendae .k-btn-previous-year, .newdesign .kalendae .k-btn-next-year { width: 16px; height: 16px; cursor: pointer; position: absolute; top: -3px; color: #777; font-size: 26px; line-height: 18px; font-weight: bold; font-family: arial; }
+.newdesign .kalendae .k-btn-previous-year { left: 0; }
+.newdesign .kalendae .k-btn-previous-month { left: 16px; }
+.newdesign .kalendae .k-btn-next-month { right: 16px; }
+.newdesign .kalendae .k-btn-next-year { right: 0; }
+.newdesign .kalendae .k-btn-previous-month:after { content: "\2039"; }
+.newdesign .kalendae .k-btn-next-month:after { content: "\203A"; }
+.newdesign .kalendae .k-btn-previous-year:after { content: "\00AB"; }
+.newdesign .kalendae .k-btn-next-year:after { content: "\00BB"; }
+.newdesign .kalendae .k-btn-previous-month:hover, .newdesign .kalendae .k-btn-next-month:hover { color: #7EA0E2; }
+.newdesign .kalendae .k-btn-previous-year:hover, .newdesign .kalendae .k-btn-next-year:hover { color: #6FDF81; }
+.newdesign .kalendae .k-first-month .k-btn-next-month, .newdesign .kalendae .k-middle-month .k-btn-next-month, .newdesign .kalendae .k-middle-month .k-btn-previous-month, .newdesign .kalendae .k-last-month .k-btn-previous-month, .newdesign .kalendae .k-first-month .k-btn-next-year, .newdesign .kalendae .k-middle-month .k-btn-next-year, .newdesign .kalendae .k-middle-month .k-btn-previous-year, .newdesign .kalendae .k-last-month .k-btn-previous-year { display: none; }
+.newdesign .kalendae .k-title, .newdesign .kalendae .k-header, .newdesign .kalendae .k-days { width: 154px; display: block; overflow: hidden; }
+.newdesign .kalendae.k-disable-next-month-btn .k-btn-next-month, .newdesign .kalendae.k-disable-previous-month-btn .k-btn-previous-month, .newdesign .kalendae.k-disable-next-year-btn .k-btn-next-year, .newdesign .kalendae.k-disable-previous-year-btn .k-btn-previous-year { display: none; }
+.newdesign .kalendae .k-header span, .newdesign .kalendae .k-days span { float: left; margin: 1px 1px; }
+.newdesign .kalendae .k-header span { text-align: center; font-weight: bold; width: 20px; padding: 1px 0; color: #666; }
+.newdesign .kalendae .k-days span { text-align: center; width: 20px; line-height: 1em; padding: 3px 3px 4px; border: 1px solid transparent; border-radius: 3px; -moz-border-radius: 3px; -webkit-border-radius: 3px; color: #999; }
+.newdesign .kalendae .k-today { text-decoration: underline; }
+.newdesign .kalendae .k-days span.k-active { border-color: #ddd; background-color: #fff; cursor: pointer; color: #333; }
+.newdesign .kalendae .k-days span.k-selected { border-color: #1072A5; color: #1072A5; }
+.newdesign .kalendae .k-days span.k-selected.k-active { background: #05ade8; color: white; }
+.newdesign .kalendae .k-days span.k-range { background: none; border-color: #6DD4FE; }
+.newdesign .kalendae .k-days span.k-range.k-active { background: #C4D4F1; border-color: #19AEFE; color: #333; }
+.newdesign .kalendae .k-days span.k-active:hover { border-color: #666; }
+.newdesign .kalendae .k-days span.k-out-of-month { color: #bebebe; }
+.newdesign .kalendae.ie8.k-floating { border: 1px solid #cccccc; }
+.newdesign .kalendae.ie8 .k-btn-close { width: 20px; height: 20px; border: none; background: url("kalendae/images/close.png") no-repeat top left; }
+.newdesign .kalendae.ie8 .k-btn-close:after { display: none; }
+.newdesign .kalendae.ie8 .k-btn-previous-month, .newdesign .kalendae.ie8 .k-btn-next-month, .newdesign .kalendae.ie8 .k-btn-previous-year, .newdesign .kalendae.ie8 .k-btn-next-year { width: 16px; height: 16px; cursor: pointer; background: #777777 url("kalendae/images/arrows.png") no-repeat center left; position: absolute; top: 0; }
+.newdesign .kalendae.ie8 .k-btn-next-month, .newdesign .kalendae.ie8 .k-btn-next-year { background-position: center right; }
+.newdesign .kalendae.ie8 .k-btn-previous-month:hover, .newdesign .kalendae.ie8 .k-btn-next-month:hover { background-color: #7EA0E2; }
+.newdesign .kalendae.ie8 .k-btn-previous-year, .newdesign .kalendae.ie8 .k-btn-next-year { background-color: #333; }
+.newdesign .kalendae.ie8 .k-btn-previous-year:hover, .newdesign .kalendae.ie8 .k-btn-next-year:hover { background-color: #6FDF81; }
+.newdesign .kalendae.ie8 .k-btn-previous-month:after, .newdesign .kalendae.ie8 .k-btn-next-month:after, .newdesign .kalendae.ie8 .k-btn-previous-year:after, .newdesign .kalendae.ie8 .k-btn-next-year:after { display: none; }

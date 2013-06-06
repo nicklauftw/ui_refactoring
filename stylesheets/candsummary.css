@@ -1,0 +1,177 @@
+.olddesign { /****************** Dropwonn Css **********************/ /* popup css*/ /* popup css end */ /************ Add A Candidate Page Css ****************/ /*.formSection input[type=text]{width:330px; margin:8px 0 0 10px; border:0; background:transparent; font-size:15px;}*/ /*#new_candidate { width: 670px; }*/ }
+.olddesign b { display: block; }
+.olddesign .uTop { background: #cccccc; height: 1px; margin: 0 4px; overflow: hidden; }
+.olddesign .uTop1 { background: #ffffff; border-left: 2px solid #cccccc; border-right: 2px solid #cccccc; height: 1px; margin: 0 2px; overflow: hidden; }
+.olddesign .uTop2 { background: #efefef; border-left: 1px solid #cccccc; border-right: 1px solid #cccccc; height: 2px; margin: 0 1px; overflow: hidden; }
+.olddesign .contentMiddle { background: url(/images/contentBg.jpg) repeat-x; border-left: 1px solid #cccccc; border-right: 1px solid #cccccc; }
+.olddesign .contentMiddle1 { background: url(/images/contentBg.jpg) repeat-x; background: url("/images/contentBg.jpg") repeat-x scroll 0 0 transparent; float: left; padding-left: 10px; width: 658px; }
+.olddesign .ubottom { background: #cccccc; height: 1px; margin: 0 4px; overflow: hidden; }
+.olddesign .ubottom1 { background: #ffffff; border-left: 2px solid #cccccc; border-right: 2px solid #cccccc; height: 1px; margin: 0 2px; overflow: hidden; }
+.olddesign .ubottom2 { background: #fff; border-left: 1px solid #cccccc; border-right: 1px solid #cccccc; height: 2px; margin: 0 1px; overflow: hidden; }
+.olddesign .heading { padding: 15px 0; }
+.olddesign .leftColumn { width: 670px; float: left; }
+.olddesign .rightColumn { width: 275px; margin-left: 15px; float: left; }
+.olddesign .dropMenu { position: relative; /*padding-bottom: 15px*/ }
+.olddesign .caps { background: url(images/candidates/cap.gif) 0 0 no-repeat; height: 34px; width: 6px; position: absolute; left: 0; top: 0; }
+.olddesign .right { background: url(images/candidates/cap.gif) -8px 0px no-repeat; height: 34px; width: 6px; position: absolute; right: 0; top: 0; }
+.olddesign .dropField { background: url(images/candidates/selBg.gif) 0 0 repeat-x; position: relative; height: 31px; padding: 3px 0 0 5px; width: 262px; }
+.olddesign .text { padding: 4px 2px 4px 7px; white-space: nowrap; padding-right: 25px; position: relative; z-index: 101; }
+.olddesign ul.dropDown { list-style-type: none; margin-top: 5px; padding-left: 10px; max-height: 200px; overflow-y: auto; overflow-x: hidden; display: none; border: 1px solid #9a9a9a; border-top: 0; position: absolute; background: #fff; top: 23px; left: 0; width: 95%; z-index: 102; }
+.olddesign ul.dropDown li { line-height: 20px; padding-left: 6px; color: #333; }
+.olddesign .arrow { position: absolute; right: 6px; top: 14px; z-index: 100; }
+.olddesign ul.dropDown li:hover { background: #e9e9e9; }
+.olddesign .on { background: #999999; width: 100%; height: 100%; top: 0; bottom: 0; position: fixed; opacity: 0.5; z-index: 2; filter: alpha(opacity=50) !important; display: none; }
+.olddesign .overOuter { position: absolute; top: 0; bottom: 0; left: 0; right: 0; z-index: 10; display: none; }
+.olddesign .overContainerAd { width: 470px; background: url(/images/popup.png) no-repeat; width: 591px; height: 311px; margin: 1800px auto 0 auto; }
+.olddesign .popTittle { font-size: 35px; font-weight: bold; color: #80b725; padding-top: 50px; display: block; text-align: center; }
+.olddesign br.clearfix { clear: both; margin: 0px !important; padding: 0px !important; height: 1px; font-size: 1px; line-height: 1px; }
+.olddesign .hrbg { background: url(/images/candidates/hr_bg.gif) repeat-x left center; height: 1px; line-height: 1px; font-size: 1px; padding: 10px 0; clear: both; }
+.olddesign .candidateBox { background: url(/images/candidates/gorm_box_bg.jpg) repeat-x left top; margin: 0 1px; padding: 18px 0 0 0; }
+.olddesign .candidateImg { font-size: 24px; color: #000; font-weight: 600; padding: 0 24px; }
+.olddesign .candidateImg img { border: 1px solid #cdcdcd; margin-right: 22px; vertical-align: text-top; }
+.olddesign .formSection { padding: 0 5px 0 5px; }
+.olddesign .formSection span { width: 150px; font-size: 15px; color: #333; line-height: 34px; display: inline-block; float: left; padding: 3px 0px 0 5px; }
+.olddesign .formSection input[type=text] { background: url("/images/candidates/textArea_bg.png") no-repeat scroll left bottom transparent; border: 0 none; display: inline-block; float: left; height: 34px; line-height: 34px; /*margin-bottom:12px;
+padding-left:5px;*/ min-width: 338px; padding-left: 7px; /*border: 1px solid red;*/ margin-right: 0px; }
+.olddesign .formSection2 { padding: 12px 5px 0 5px; }
+.olddesign .formSection2 span { color: #333333; display: inline-block; float: left; font-size: 15px; line-height: 34px; padding: 3px 5px 0 0px; width: 145px; }
+.olddesign .formSection2 label { background: url(/images/candidates/textArea_bg2.png) no-repeat left 0; color: #999; min-height: 34px; line-height: 34px; display: inline-block; min-width: 316px; margin-bottom: 2px; float: left; }
+.olddesign .formSection2 label:hover { color: #999; }
+.olddesign .formSection2 input[type=text] { background: url("/images/candidates/textArea_bg.png") no-repeat scroll left bottom transparent; border: 0 none; display: inline-block; float: left; height: 34px; line-height: 34px; /*    margin-bottom: 12px; margin-right:15px;*/ min-width: 338px; padding-left: 5px; padding-left: 7px; }
+.olddesign .dropdownContaner { float: left; margin-left: 1px; position: relative; width: 125px; }
+.olddesign ul.greenlist { padding-left: 0; width: 98%; border: 1px solid #cccccc; border-top: 0; }
+.olddesign ul.greenlist li { padding: 2px 0 2px 10px; }
+.olddesign ul.greenlist li:hover { background: #81c22b; color: #fff; }
+.olddesign .delet_btn { left: 116px; position: absolute; top: 12px; }
+.olddesign .formSection3 { padding: 12px 5px 0 5px; }
+.olddesign .formSection3 span { color: #333333; display: inline-block; float: left; font-size: 15px; line-height: 34px; padding: 3px 0 0 0px; width: 165px; }
+.olddesign .formSection3 input[type=text] { background: url("/images/candidates/textArea_bg.png") no-repeat scroll left bottom transparent; border: 0 none; display: inline-block; float: left; height: 34px; line-height: 34px; margin-bottom: 12px;  /*margin-right:15px;
+padding-left:5px; */ min-width: 338px; padding-left: 7px; }
+.olddesign .formSection3 label:hover { color: #999; }
+.olddesign .formSection3 label input[type=text] { width: 300px; margin: 8px 0 0 10px; border: 0; background: transparent; font-size: 15px; }
+.olddesign .commentTextBox { padding: 12px 5px 0 25px; }
+.olddesign .commentTextBox p { font-size: 15px; color: #333; }
+.olddesign .commentTextBox p span { color: #999; }
+.olddesign .commentTextBox p.bomentText { background: url(/images/candidates/textarea_bg3.gif) no-repeat left top; height: 120px; margin: 14px 0 18px 0; }
+.olddesign .commentTextBox p.bomentText textarea { width: 464px; overflow-y: auto; margin: 6px 0 0 10px; border: 0; background: transparent; font-size: 15px; height: 110px; }
+.olddesign .commentTextBox div.fileinput { margin: 12px 0 0 0; background: url(/images/candidates/input_file_bg.gif) no-repeat left top; height: 37px; line-height: 37px; position: relative; }
+.olddesign .commentTextBox div.fileinput input[type=file] { border: 0; margin: 2px 0 0 10px; padding: 3px 0 0 0; height: 30px; position: relative; z-index: 10000; }
+.olddesign .commentTextBox p.submitbutton { margin: 14px 0; }
+.olddesign .commentTextBox p.submitbutton a { color: #ff0000; font-size: 15px; font-weight: 600; text-decoration: underline; }
+.olddesign .commentTextBox p.submitbutton a:hover { text-decoration: none; }
+.olddesign .fileShow { left: 0; margin: 2px; padding: 5px; position: absolute; top: 0; width: 335px; background: none; border: 0; }
+.olddesign .file_field_settings { width: 200px; }
+.olddesign .text_field_div { border: 0 none; display: inline-block; float: left; height: 52px; line-height: 34px; margin-bottom: 12px; /*min-width:345px;*/ width: 380px; }
+.olddesign .text_field_div_candidate { border: 0 none; display: inline-block; float: left; margin-bottom: 12px; min-height: 32px; padding-left: 15px; width: 350px; }
+.olddesign .text_field_div2 { border: 0 none; display: inline-block; float: left; /*height:60px; margin-bottom:12px;*/ width: 354px; }
+.olddesign #new_candidate label.error { margin-left: 10px; /*width: auto;*/ display: inline; color: red; }
+.olddesign #candidateForm label.error { color: red; display: inline; float: left; margin-left: 10px; padding-top: 6px; background: none repeat scroll 0 0 transparent !important; border: medium none !important; }
+.olddesign .add_new_cand { color: #80B725; font-size: 16px; font-weight: bold; line-height: 24px; }
+.olddesign .add_new_cand a:link { text-decoration: underline; color: #80B725; }
+.olddesign .add_new_cand a:visited { text-decoration: underline; color: #80B725; }
+.olddesign .add_new_cand a:active { text-decoration: underline; color: #80B725; }
+.olddesign .add_new_cand a:hover { text-decoration: underline; color: #80B725; }
+.olddesign .inviteNewUser { float: left; font-size: 18px; font-weight: bold; margin-top: 2px; width: 240px; }
+.olddesign .inviteNewUserMain { float: left; margin-top: 21px; width: 100%; }
+.olddesign .userMidContent1 { float: left; margin-top: 14px; width: 100%; }
+.olddesign .candidateSearch1 { float: left; margin-top: 10px; }
+.olddesign .searchCandiInput1 { border: 1px solid #CCCCCC; float: left; height: 24px; width: 333px; padding-left: 7px; }
+.olddesign .searchBtn11 { float: left; }
+.olddesign .userSumLeft1 { float: left; width: 260px; }
+.olddesign .userSumMain1 { border-bottom: 2px solid #EBEBEB; float: left; margin-top: 17px; padding-bottom: 20px; width: 100%; }
+.olddesign .topColumRight { float: left; background: url("/images/candidates/top.png"); width: 272px; height: 16px; }
+.olddesign .centerColumRight { float: left; background: url("/images/candidates/center.png") repeat-y; width: 272px; height: auto; padding-top: 10px; padding-bottom: 10px; }
+.olddesign .bottomColumRight { float: left; background: url("/images/candidates/bottom.png"); width: 272px; height: 16px; }
+.olddesign .topTextColum { float: left; font-size: 16px; font-weight: bold; margin-left: 10px; width: 100%; }
+.olddesign .topTextColum a:link { text-decoration: underline; color: #000; }
+.olddesign .topTextColum a:visited { text-decoration: underline; color: #000; }
+.olddesign .topTextColum a:active { text-decoration: underline; color: #000; }
+.olddesign .topTextColum a:hover { text-decoration: underline; color: #000; }
+.olddesign .topTextColumBox { float: left; margin-left: 10px; width: 92%; background: #fff; height: 30px; }
+.olddesign .show_cand_job { color: #80B725; float: left; font-size: 12px; font-weight: bold; line-height: 19px; width: 300px; }
+.olddesign .show_cand_job a:link { text-decoration: underline; color: #80B725; }
+.olddesign .show_cand_job a:visited { text-decoration: underline; color: #80B725; }
+.olddesign .show_cand_job a:active { text-decoration: underline; color: #80B725; }
+.olddesign .show_cand_job a:hover { text-decoration: underline; color: #80B725; }
+.olddesign .add_another { color: red; float: left; font-size: 12px; font-weight: bold; line-height: 10px; width: 300px; }
+.olddesign .add_another a:link { text-decoration: underline; color: red; }
+.olddesign .add_another a:visited { text-decoration: underline; color: red; }
+.olddesign .add_another a:active { text-decoration: underline; color: red; }
+.olddesign .add_another a:hover { text-decoration: underline; color: red; }
+.olddesign .job_popup { background-color: #FFFFFF; border: 1px solid #CCCCCC; color: #999999; padding: 5px; position: absolute; width: 247px; margin-top: 10px; }
+.olddesign .job_popup a:link { text-decoration: underline; color: black; }
+.olddesign .job_popup a:visited { text-decoration: underline; color: black; }
+.olddesign .job_popup a:active { text-decoration: underline; color: black; }
+.olddesign .job_popup a:hover { text-decoration: underline; color: black; }
+.olddesign .mainpannelright { float: left; margin: 20px 17px 20px 20px; width: 670px; }
+.olddesign .mainpannelright .head { background-image: url("images/bgpannelright_top.png"); background-position: center top; font-size: 0; height: 7px; width: 670px; float: left; }
+.olddesign .mainpannelright .mid { background-image: url("images/bgpannelright_mid.png"); background-position: center top; background-repeat: repeat-x; border-left: 1px solid #CCCCCC; border-right: 1px solid #CCCCCC; float: left; min-height: 428px; width: 668px; }
+.olddesign .mainpannelright .mid_new { background-image: url("images/bgpannelright_mid.png"); background-position: center top; background-repeat: repeat-x; border-left: 1px solid #CCCCCC; border-right: 1px solid #CCCCCC; float: left; min-height: 400px; width: 668px; }
+.olddesign .loginbg .selected { color: #000000; }
+.olddesign .loginbg .selected a { color: #000000; }
+.olddesign .mainpannelright .foot { background: url(images/bgpannelright_base.png) no-repeat; font-size: 0; height: 7px; *height: 25px; width: 670px; float: left; }
+.olddesign .mainpannelright .heading { border-bottom: 1px solid #CCCCCC; font-size: 24px; font-weight: bold; line-height: 61px; padding-left: 25px; width: 643px; }
+.olddesign .mainpannelright .subheading { border-bottom: 1px solid #CCCCCC; float: left; font-size: 15px; font-weight: bold; line-height: 38px; padding-left: 25px; width: 643px; }
+.olddesign .mainpannelright .plussign { color: #333333; font-size: 14px; text-decoration: none; }
+.olddesign .mainpannelright .jobentries { border-bottom: 1px solid #CCCCCC; float: left; padding: 10px 0 25px; width: 100%; }
+.olddesign .mainpannelright .jobentry { float: left; padding: 7px; }
+.olddesign .mainpannelright .icon { background-image: url("/images/jobentry.png"); background-position: center center; background-repeat: no-repeat; float: left; height: 50px; width: 60px; }
+.olddesign .mainpannelright .jobdesignation { float: left; padding-right: 10px; padding-top: 7px; width: 268px; }
+.olddesign .mainpannelright .designation { color: #80B725; float: left; font-size: 16px; font-weight: bold; line-height: 24px; width: 100%; }
+.olddesign .mainpannelright .manager { float: left; width: 100%; }
+.olddesign .mainpannelright .jobdetails { float: left; line-height: 22px; padding-top: 7px; }
+.olddesign .rightpartition { float: left; width: 290px; margin-top: 18px; }
+.olddesign .rightpartition_new { float: left; margin-top: 18px; width: 256px; }
+.olddesign .whitepannel { float: left; width: 256px; margin: 8px; }
+.olddesign .whitepannel .head { background-image: url(/images/rightpannelwhite_head.png); height: 4px; font-size: 13px; }
+.olddesign .whitepannel .mid { background-color: transparent; background-image: url("/images/rightpannelwhite_mid.png"); background-repeat: repeat; min-height: 4px; padding: 9px 11px; width: 234px; margin-top: 23px; }
+.olddesign .whitepannel .foot { background-image: url(/images/rightpannelwhite_foot.png); height: 4px; }
+.olddesign .whitepannel .heading { font-size: 14px; font-weight: bold; margin-bottom: 10px; }
+.olddesign .rightpannelgrey { float: left; width: 272px; margin-top: 14px; }
+.olddesign .rightpannelgrey .head { float: left; background-image: url(images/leftpannel_head.png); background-position: top center; background-repeat: no-repeat; width: 100%; height: 6px; }
+.olddesign .rightpannelgrey .mid { float: left; background-color: #e5e5e5; }
+.olddesign .rightpannelgrey .foot { float: left; background-image: url(images/leftpannel_foot.png); background-position: top center; background-repeat: no-repeat; width: 100%; height: 6px; }
+.olddesign .headingusersummary { border-bottom: 1px dashed #CCCCCC; float: left; font-size: 14px; font-weight: bold; height: 79px; margin-top: 13px; padding-left: 20px; width: 97%; }
+.olddesign .justyou { background-image: url("/images/justyoubg.png"); border-bottom: 1px dashed #CCCCCC; float: left; font-size: 15px; text-align: center; width: 100%; }
+.olddesign .bigfont { color: #000000; font-size: 24px; font-weight: bold; line-height: 56px; width: 100%; }
+.olddesign .bigfont a { color: #80b725; }
+.olddesign .job_link { font-weight: bold; }
+.olddesign .job_link a:link { text-decoration: underline; color: black; }
+.olddesign .job_link a:visited { text-decoration: underline; color: black; }
+.olddesign .job_link a:active { text-decoration: underline; color: black; }
+.olddesign .job_link a:hover { text-decoration: underline; color: black; }
+.olddesign .file_field_setting { height: 35px; left: 115px; margin-top: 8px; opacity: 0; position: absolute; }
+.olddesign .file_field_candidate { height: 35px; left: 40px; margin-top: 8px; opacity: 0; -moz-opacity: 0; filter: progid:DXImageTransform.Microsoft.Alpha(opacity=0); position: absolute; }
+.olddesign .photo_div { float: left; width: 48px; height: 58px; margin-left: 15px; }
+.olddesign .input_area_field { float: left; padding-left: 15px; width: 490px; }
+.olddesign .search_text { float: left; width: 100%; }
+.olddesign .input_field_tag { background: url("/images/input_file_bg.gif") no-repeat scroll left bottom transparent; float: left; height: 47px; min-width: 487px; }
+.olddesign #hidden_path { background: none repeat scroll 0 0 transparent; border: 0 none; display: inline-block; float: left; height: 32px; line-height: 34px; margin-left: 6px; margin-top: 10px; min-width: 369px; }
+.olddesign #hidden_path_document { background: none repeat scroll 0 0 transparent; border: 0 none; display: inline-block; float: left; height: 32px; line-height: 34px; margin-left: 6px; margin-top: 10px; min-width: 369px; }
+.olddesign .avaliable_job { color: #53896F; font-size: 8pt; }
+.olddesign .avaliable_job a { color: #53896F; text-decoration: underline; }
+.olddesign .avaliable_job :hover { color: #53896F; text-decoration: none; }
+.olddesign .add_new { color: #ae0d11; float: left; }
+.olddesign .add_new a { color: #ae0d11; text-decoration: none; }
+.olddesign .add_new :hover { color: #ae0d11; text-decoration: none; }
+.olddesign .current_considered { padding-top: 15px; font-size: 14px; padding-left: 20px; }
+.olddesign .new_div_autocomplete { /*clear: both;*/ padding-top: 5px; }
+.olddesign #autocomplete_div { clear: both; padding-top: 10px; }
+.olddesign .dropMenu1 { margin-right: 10px; position: relative; padding-bottom: 11px; margin-left: 16px; }
+.olddesign .management_section { font-size: 8pt; color: #737373; }
+.olddesign .management_section a { text-decoration: underline; color: #737373; }
+.olddesign .management_section :hover { text-decoration: none; color: #737373; }
+.olddesign .select_delete { font-size: 8pt; color: #0000EE; }
+.olddesign .select_delete a { text-decoration: underline; color: #0000EE; }
+.olddesign .select_delete :hover { text-decoration: none; color: #0000EE; }
+.olddesign .select_contact { color: #000000 !important; }
+.olddesign .new_div_autocomplete { font-size: 8pt; }
+.olddesign .new_div_autocomplete a { text-decoration: underline; }
+.olddesign .new_div_autocomplete :hover { text-decoration: none; }
+.olddesign .listedJobs { float: left; padding-left: 10px; width: 230px; }
+.olddesign .gray_text { color: #777777; }
+.olddesign .error { border: 1px solid red !important; }
+.olddesign .extra_error { border: 1px solid red !important; }
+.olddesign .serch3 { background: url("/images/select-bg_big.png") no-repeat scroll 10px top transparent; float: left; margin: 0 10px 0 0; overflow: hidden; padding: 0 0 0 10px; position: relative; width: 273px; height: 40px; }
+.olddesign .serch3 input[type="text"] { background: none repeat scroll 0 0 transparent; border: 0 solid #FF0000; color: #000000; font: 11px/14px Arial, Helvetica, sans-serif; margin: 3px; padding: 9px 0 9px 6px; width: 150px; }
+.olddesign .serch3 select { left: 10px; opacity: 0; position: absolute; top: 7px; width: 270px; }

@@ -1,0 +1,184 @@
+html, body { margin: 0; padding: 0; }
+
+.olddesign { /* ===== Reset Css ======================== */ /* ===== Header ======================== */ /* ===== Top Tabs ======================== */ /* ===== Footer ======================== */ /*adddeed sannan*/ /*end sannan*/ /*email-client box*/ /*.formSection input[type=text]{width:330px; margin:8px 0 0 10px; border:0; background:transparent; font-size:15px;}*/ /* css for timepicker */ font-family: Arial, Helvetica, sans-serif; margin: 0; padding: 0; font-size: 12px; }
+.olddesign a img { border: 0; }
+.olddesign a { text-decoration: none; }
+.olddesign .clear { clear: both; line-height: 0; height: 0px; }
+.olddesign .lft { float: left; }
+.olddesign .rgt { float: right; }
+.olddesign input:focus { outline: 0; }
+.olddesign #header_cname { color: #ffffff; font-size: 2.5em; font-weight: bold; height: 45px; margin-top: -10px; }
+.olddesign #header { background: #81c22b; padding: 0px 18px 0 18px; height: 125px; /*width: 100%;*/ }
+.olddesign #topNav { float: right; background: url(/images/topLeft.jpg) no-repeat left top; padding-left: 12px; }
+.olddesign #topRight { background: url(/images/topRight.jpg) no-repeat right top; padding-right: 10px; }
+.olddesign #topBg { background: url(/images/topBg.jpg) repeat-x; height: 35px; }
+.olddesign #topBg ul { list-style: none; padding: 6px 0; margin: 0; }
+.olddesign #topBg ul li { float: left; margin-right: 20px; font-weight: bold; }
+.olddesign #topBg ul li a { float: left; color: #999999; }
+.olddesign #topBg ul li a:hover { color: #000; }
+.olddesign #topBg ul li span { background: url(/images/topIcons.gif) no-repeat; width: 26px; overflow: hidden; float: left; height: 20px; }
+.olddesign #topBg ul li span.user { background-position: 0 0; }
+.olddesign #topBg ul li span.info { background-position: -27px 0px; }
+.olddesign #topBg ul li span.settings { background-image: url("/images/settings_icon.png"); background-repeat: no-repeat; }
+.olddesign #topBg ul li span.out { background-position: -55px 0px; }
+.olddesign #tabs_lt { border: 0; margin: 0; padding: 0; width: 50%; }
+.olddesign #tabs_lt .ui-widget-header { background: #81C22B; border: 1px solid #81C22B; }
+.olddesign #tabs_lt .ui-corner-all { -moz-border-radius: 0; }
+.olddesign #tabs_lt .ui-tabs-nav { padding-left: 1em; }
+.olddesign #tabs_lt .ui-tabs-panel { background: white; }
+.olddesign #tabs_rt { border: 0; margin: 0; padding: 0; }
+.olddesign #tabs_rt .ui-widget-header { background: #81C22B; border: 1px solid #81C22B; }
+.olddesign #tabs_rt .ui-corner-all { -moz-border-radius: 0; }
+.olddesign #tabs_rt .ui-tabs-nav { padding-left: 1em; }
+.olddesign #tabs_rt .ui-tabs-panel { background: white; }
+.olddesign .ui-state-default a, .olddesign .ui-state-default a:link, .olddesign .ui-state-default a:visited { color: #000000; }
+.olddesign html, .olddesign body { height: 100%; }
+.olddesign #body { min-height: 100%; height: auto !important; height: 100%; margin: 0 auto -60px; background-color: #fff; }
+.olddesign .footer, .olddesign .push { height: 60px; clear: both; }
+.olddesign #footer { clear: both; float: left; width: 100%; height: 60px; background: #81C22B; }
+.olddesign #footer p { padding: 10px; margin: 0; text-align: center; color: #ffffff; }
+.olddesign #footer a { color: #ffffff; }
+.olddesign #content { padding: 1em; background-color: #fff; }
+.olddesign .manNav { padding-top: 16px; margin: 0; padding: 0; }
+.olddesign .manNav ul { list-style: none outside none; margin-left: -46px; margin-top: 16px; }
+.olddesign .manNav ul li { float: left; margin: 0 0 4px 4px; }
+.olddesign .manNav ul li a { display: block; background: url(../images/navLeft1.jpg) no-repeat left top; padding-left: 6px; color: #666666; font-weight: bold; }
+.olddesign .manNav ul li a span { display: block; background: url(../images/navright1.jpg) no-repeat right top; padding: 10px 20px 5px 15px; height: 20px; cursor: pointer; }
+.olddesign .manNav ul li a:hover { display: block; background: url(../images/navLeft.jpg) no-repeat left top; padding-left: 6px; color: #333333; font-weight: bold; }
+.olddesign .manNav ul li a:hover span { display: block; background: url(../images/navright.jpg) no-repeat right top; padding: 10px 20px 5px 15px; height: 20px; }
+.olddesign .manNav ul li.active a { display: block; background: url(/images/navLeft.jpg) no-repeat left top; padding-left: 6px; color: #333333; font-weight: bold; }
+.olddesign .manNav ul li.active a span { display: block; background: url(/images/navright.jpg) no-repeat right top; padding: 10px 20px 5px 15px; height: 26px; }
+.olddesign .drop_down_border { border: 0 none; height: 18px; margin-top: 6px; width: 323px; /*background:url("images/candidates/selBg.gif") repeat-x scroll 0 0 transparent;*/ }
+.olddesign .score_risk_low { color: green; }
+.olddesign .score_risk_hi { color: red; }
+.olddesign .dialog { display: none; }
+.olddesign .top_center_corner { background: url(../images/topCenterImg.png) repeat-x; }
+.olddesign .left_center_corner { background: url(../images/leftCenterCorner.png) repeat-y; }
+.olddesign .right_center_corner { background: url(../images/rightCenter.png) repeat-y; }
+.olddesign .bottom_center_main { background: url(../images/bottomCenterCorner.png) repeat-x; }
+.olddesign .centerMain { background: url("../images/cetner.png") repeat-x scroll center bottom white; }
+.olddesign .centerMain_small { background: url("../images/cetner_small.png") repeat-x scroll center bottom white; }
+.olddesign .formSectionclient { padding: 0 5px 0 5px; margin-top: 80px; }
+.olddesign .formSectionclient span { width: 135px; font-size: 15px; color: #333; line-height: 34px; display: inline-block; float: left; padding: 25px 0 0 20px; }
+.olddesign .formSectionclient input[type=text] { background: url("/images/candidates/textArea_bg.png") no-repeat scroll left bottom transparent; border: 0 none; display: inline-block; float: left; height: 34px; line-height: 34px; /*margin-bottom:12px;
+padding-left:5px;*/ min-width: 345px; width: 345px; margin-top: 25px; /*border: 1px solid red;*/ margin-right: 0px; }
+.olddesign br.clearfix { clear: both; margin: 0px !important; padding: 0px !important; height: 1px; font-size: 1px; line-height: 1px; }
+.olddesign .commentTextBox { padding: 12px 5px 0 25px; margin-top: 30px; }
+.olddesign .commentTextBox p { font-size: 15px; color: #333; }
+.olddesign .commentTextBox p span { color: #999; }
+.olddesign .commentTextBox p.bomentText { background: url(/images/textAreab.png) no-repeat left top; height: 120px; margin: 14px 0 18px 0; }
+.olddesign .commentTextBox p.bomentText textarea { width: 464px; overflow-y: auto; margin: 6px 0 0 10px; border: 0; background: transparent; font-size: 15px; height: 110px; width: 480px; }
+.olddesign .commentTextBox div.fileinput { margin: 12px 0 0 0; background: url(/images/candidates/input_file_bg.gif) no-repeat left top; height: 37px; line-height: 37px; position: relative; }
+.olddesign .commentTextBox div.fileinput input[type=file] { border: 0; margin: 2px 0 0 10px; padding: 3px 0 0 0; height: 30px; position: relative; z-index: 10000; }
+.olddesign .commentTextBox p.submitbutton { margin: 14px 0; }
+.olddesign .commentTextBox p.submitbutton a { color: #ff0000; font-size: 15px; font-weight: 600; text-decoration: underline; }
+.olddesign .commentTextBox p.submitbutton a:hover { text-decoration: none; }
+.olddesign .clientemail { margin-top: 10px !important; }
+.olddesign .clientemail span { margin-top: 10px; padding: 0; width: 65px !important; }
+.olddesign .clientemail input[type="text"] { margin-top: 10px; }
+.olddesign #re_invite .commentTextBox { padding: 8px 0 0; }
+.olddesign .headingpopupemail { border-bottom: 1px solid #666666; color: #80B725; font-size: 28px; font-weight: bold; line-height: 50px; width: 100%; }
+.olddesign .formcontent input[type=text] { background: url("/images/textArea_bg.png") no-repeat scroll left bottom transparent; border: 0 none; display: inline-block; height: 34px; line-height: 34px; min-width: 335px; width: 335px; margin-bottom: .5em; padding-left: 10px; margin-right: 0px; }
+.olddesign .cd_status { white-space: nowrap; }
+.olddesign .saveClosebtn { float: right; margin-top: 10px; }
+.olddesign .hire_lnk { text-decoration: none; color: #81c12c !important; }
+.olddesign .hire_lnk a { text-decoration: none; color: #81c12c !important; }
+.olddesign .hire_lnk :hover { text-decoration: none; color: #81c12c !important; }
+.olddesign #jaa_form label.error { clear: both; color: red; display: inline; margin-left: -12px; margin-top: 128px; position: absolute; }
+.olddesign #jaaa_form label.error { clear: both; color: red; display: inline; margin-left: -195px; margin-top: 55px; position: absolute; }
+.olddesign a.hidden { text-decoration: none; color: black; cursor: text; }
+.olddesign #ahi_form label.error { clear: both; color: red; display: inline; margin-left: 529px; margin-top: -1px; position: absolute; }
+.olddesign #elem_form label.error { clear: both; color: red; display: inline; margin-left: 201px; margin-top: 2px; position: absolute; }
+.olddesign #ref_form label.error { clear: both; color: red; display: inline; margin-left: 140px; margin-top: 9px; position: absolute; }
+.olddesign .check_box_settings { border: none; border: 0; }
+.olddesign .resultBg { background: url("/images/resultbg.png") no-repeat scroll left top transparent; float: right; height: 53px; width: 227px; margin-left: 27px; }
+.olddesign .resultBg1 { background: url("/images/resultbg_new.png") no-repeat scroll left top transparent; float: right; height: 53px; width: 227px; margin-left: 27px; }
+.olddesign .percentage { border: 0 solid #000000; display: inline-block; float: left; font-size: 32px; font-weight: bold; padding: 8px 10px; text-align: center; width: 78px; }
+.olddesign .percentage1 { border: 0 solid #000000; display: inline-block; float: left; font-size: 32px; font-weight: bold; padding: 6px 10px; text-align: center; min-width: 78px; width: 78px; }
+.olddesign .resultText { background: url("/images/bggrey1.gif") repeat-x scroll left top transparent; border-bottom: 1px solid #CCCCCC; border-top: 1px solid #CCCCCC; color: #333333; font-size: 16px; font-weight: bold; height: 100%; padding: 8px 175px 8px 0; text-align: right; }
+.olddesign .score_mean { font-size: 16px; }
+.olddesign .score_mean a { font-size: 16px; text-decoration: underline; }
+.olddesign .score_mean :hover { font-size: 16px; text-decoration: none; }
+.olddesign .score_help_area { text-align: right; margin-top: 20px; clear: both; }
+.olddesign .score_calculating { width: 480px; margin-top: 20px; float: right; }
+.olddesign .risk_levels { float: left; padding-left: 10px; padding-top: 18px; }
+.olddesign .on { background-image: url("/images/bg_rep.png"); background-repeat: repeat; bottom: 0; display: none; height: 100%; opacity: 0.5; position: fixed; top: 0; width: 100%; z-index: 2; left: 0; }
+.olddesign td.rpad { padding-right: 1em; }
+.olddesign td.vpad { padding-bottom: 1em; }
+.olddesign .ui-timepicker-div .ui-widget-header { margin-bottom: 8px; }
+.olddesign .ui-timepicker-div dl { text-align: left; }
+.olddesign .ui-timepicker-div dl dt { height: 25px; }
+.olddesign .ui-timepicker-div dl dd { margin: -25px 0 10px 65px; }
+.olddesign .ui-timepicker-div td { font-size: 90%; }
+.olddesign .task_panel_bg { background-color: #e6e5e3; padding: 5px; float: left; }
+.olddesign .task_inner { background-color: #f2f5fe; padding: 5px; padding-left: 15px; float: left; }
+.olddesign .task_panel_heading { font-size: 16px; font-family: Arial, Helvetica, sans-serif; font-weight: bold; padding-top: 5px; }
+.olddesign #small_text_box { background: url("/images/textArea_bg_small.png") no-repeat scroll left bottom transparent; border: 0 none; display: inline-block; height: 34px; line-height: 34px; margin-bottom: 0.5em; min-width: 240px; width: 240px; padding-left: 5px; padding-right: 10px; }
+.olddesign .task_panel_smaller { font-size: 12px; }
+.olddesign .xsmall_text_box { background: url("/images/textArea_bg_xsmall.png") no-repeat scroll left bottom transparent; border: 0 none; display: inline-block; height: 25px; min-width: 133px; width: 133px; }
+.olddesign .drop_set_small { border: 0 none; font-size: 12px; margin-left: 5px; margin-top: 3px; width: 120px; }
+.olddesign .on { background-image: url("/images/bg_rep.png"); background-repeat: repeat; bottom: 0; display: none; height: 100%; opacity: 0.5; position: fixed; top: 0; width: 100%; z-index: 2; left: 0; }
+.olddesign .overOuter { bottom: 0; display: none; z-index: 10300; }
+.olddesign .your_profile { color: #80B725; font-size: 28px; font-weight: bold; }
+.olddesign .your_profile_black { color: #333333; font-size: 22px; padding-top: 15px; }
+.olddesign .your_profile_grey { color: #666666; font-size: 14px; font-weight: bold; padding-top: 8px; }
+.olddesign .fixed_ui_width { width: 260px !important; height: 25px !important; }
+.olddesign .fixed_ui_width_cj { width: 240px !important; height: 25px !important; }
+.olddesign .fixed_ui_width_user_panel { width: 100% !important; height: 25px !important; }
+.olddesign .fixed_ui_width_border { border: 2px solid #CCCCCC !important; width: 100% !important; height: 25px !important; }
+.olddesign .jobProfilesteps { float: left; padding-left: 14px; padding-top: 10px; }
+.olddesign .pop_out_area_email { position: fixed; top: 10%; left: 50%; z-index: 10300; margin-left: -290px; }
+.olddesign .h2_setting { background: url("/images/job_title_bg.jpg") repeat-x scroll 0 0 transparent; border-bottom: 1px solid #CCCCCC; border-top: 1px solid #CCCCCC; clear: both; color: #333333; font-size: 11px; margin-top: 10px; padding-left: 10px; }
+.olddesign .green_text { color: #81C22B; }
+.olddesign .green_text a { color: #81C22B; text-decoration: underline; }
+.olddesign .green_text :hover { color: #81C22B; text-decoration: none; }
+.olddesign .content425 { padding: 1em; background-color: #fff; width: 425px; height: 512px; }
+.olddesign .card_panel_drop_down { border: none; width: 120px; }
+.olddesign .acc_user_panel { border: none; width: 140px; }
+.olddesign .addAnother { color: gray; }
+.olddesign .addAnother a { text-decoration: none; color: #777777 !important; }
+.olddesign .gry_text { color: #777777; }
+.olddesign textarea { resize: none; }
+.olddesign .newFiedlDiv { border: 0 none; display: inline-block; float: left; height: 52px; margin-bottom: 12px; width: 255px; }
+.olddesign .newFiedlDiv input { background: url("/images/textArea_bg_small.png") no-repeat scroll left bottom transparent !important; border: 0 none !important; display: inline-block !important; height: 34px !important; line-height: 34px !important; margin-bottom: 0.5em !important; min-width: 240px !important; padding-left: 5px !important; padding-right: 10px !important; }
+.olddesign .drop_down_select_width { border: 0 none !important; float: left !important; margin-bottom: 13px !important; margin-top: 4px !important; width: 72px !important; }
+.olddesign .document label.error { color: red !important; padding-left: 8px; }
+.olddesign .tooltip { display: block; background: transparent url(/images/black_arrow.png); font-size: 12px; height: 70px; width: 160px; padding: 25px; color: #fff; }
+.olddesign .elem_box { border: 3px solid #999; padding: 13px; -moz-border-radius: 8px; -webkit-border-radius: 8px; -opera-border-radius: 8px; -khtml-border-radius: 8px; border-radius: 8px; background: none repeat scroll 0 0 #E5E5E5; behavior: url(/PIE.htc); margin-left: 71px; margin-right: 31px; /* background: url(/images/pop-3.png) no-repeat; width: 185px; height: 96px;
+*/ }
+.olddesign .achiv_button { padding-top: 14px; float: right; }
+.olddesign #jaaa_form_phone label.error { clear: both; color: red; display: inline; margin-left: 610px; margin-top: 65px; position: absolute; }
+.olddesign .active_upper a { color: #000000 !important; float: left; }
+.olddesign .pop_out_area_email_2 { left: 50%; margin-left: -290px; position: absolute; top: 10%; z-index: 400; }
+.olddesign .coupon_hider label.error { display: none !important; }
+.olddesign .rounded { border: none; -webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px; -webkit-box-shadow: 0 0 5px #666 inset; -moz-box-shadow: 0 0 5px #666 inset; box-shadow: 0 0 5px #666 inset; height: 25px; line-height: 25px; width: 310px; text-indent: 5px; }
+.olddesign .interviewTextareaHlder_new_question textarea { height: 85px !important; }
+.olddesign .hp_help { font-weight: bold; color: #000; }
+.olddesign pre { background-color: #eee; padding: 10px; font-size: 11px; }
+.olddesign div.field, .olddesign div.actions { margin-bottom: 10px; }
+.olddesign #notice { color: green; }
+.olddesign .field_with_errors { border: 1px solid red; display: table; margin-top: 20px; padding: 2px; }
+.olddesign #error_explanation { width: 450px; border: 2px solid red; padding: 7px; padding-bottom: 0; margin-bottom: 20px; background-color: #f0f0f0; }
+.olddesign #error_explanation h2 { text-align: left; font-weight: bold; padding: 5px 5px 5px 15px; font-size: 12px; margin: -7px; margin-bottom: 0px; background-color: #c00; color: #fff; }
+.olddesign #error_explanation ul li { font-size: 12px; list-style: square; }
+.olddesign .heading_style { color: #97C940; font-size: 22px; margin-top: 15px; padding-left: 15px; }
+.olddesign .p-panel-top { height: 19px; font-size: 0; clear: both; background: url(/images/users/p-panel-top.png) left top no-repeat; width: 579px; }
+.olddesign .p-panel-bottom { height: 19px; font-size: 0; clear: both; background: url(/images/users/p-panel-bottom.png) left top no-repeat; width: 579px; }
+.olddesign .p-panel-body { background: white url(/images/users/p-panel-body.png) left bottom repeat-x; padding: 8px 25px 0 25px; overflow: hidden; width: 520px; }
+.olddesign .p-panel-center { background: url(/images/users/p-panel-middle.png) left top repeat-y; padding: 0 7px 0 1px; }
+.olddesign .p-panel-body h1 { font-size: 18px; margin: 0 0 4px 0; padding: 0; font-weight: bold; text-align: center; }
+.olddesign p.panelTxt { margin: 10px 0; padding: 0; line-height: 17px; font-size: 13px; }
+.olddesign .flt { float: left; }
+.olddesign .rgt { float: right; }
+.olddesign .clear_both { clear: both; }
+.olddesign .heading_area { font-family: arial; font-size: 16px; color: #000000; }
+.olddesign .candidate_interviewing { width: 250px; }
+.olddesign .name_area { width: 125px; }
+.olddesign .elements_area { padding-top: 5px; padding-left: 5px; width: 105px; }
+.olddesign .elements_area_left { padding-top: 5px; padding-left: 5px; width: 274px; }
+.olddesign .row_area { padding-top: 10px; clear: both; }
+.olddesign .clearfix:after { content: "."; display: block; clear: both; visibility: hidden; line-height: 0; height: 0; }
+.olddesign .clearfix { /*    display: inline-block;*/ }
+.olddesign .image_area { width: 25px; }
+.olddesign .scrpanel { height: 47px; }
+.olddesign .scrpanel1 { height: 50px; }

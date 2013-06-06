@@ -1,0 +1,70 @@
+.olddesign .options_heading_new, .olddesign .options_heading { float: left; width: 96%; font-size: 18px; color: #000; border-top: 1px dashed #ccc; border-bottom: 1px dashed #ccc; background: url(/images/testing_option_heading.png) repeat-x; height: 47px; line-height: 47px; font-weight: bold; font-family: Arial, Helvetica, sans-serif; padding-left: 4%; }
+.olddesign .options_heading_new, .olddesign .options_heading_top { float: left; width: 96%; font-size: 22px; color: #000; /*height: 47px;*/ line-height: 27px; font-weight: bold; font-family: Arial, Helvetica, sans-serif; padding-left: 4%; }
+.olddesign .options_heading_new, .olddesign .options_heading_name { float: left; width: 96%; font-size: 14px; color: #000; /*height: 47px;*/ /*line-height: 47px;*/ font-weight: bold; font-style: italic; font-family: Arial, Helvetica, sans-serif; padding-left: 4%; margin-bottom: 15px; }
+.olddesign .optional_links_holder { float: left; width: 96%; padding-left: 4%; border-top: 1px solid #fff; border-bottom: 1px solid #ccc; background: url(/images/links_bg.png) repeat-x; height: 44px; line-height: 42px; }
+.olddesign .optional_links_holder img { float: left; margin-top: 10px; margin-right: 20px; }
+.olddesign .optional_links_holder label { float: left; width: 80%; font-family: Arial, Helvetica, sans-serif; color: #6fac1e; font-size: 15px; }
+.olddesign .skill_content_holder { float: left; width: 96%; margin-left: 4%; padding: 20px 0; }
+.olddesign .skill_select_holder { float: left; width: 100%; }
+.olddesign .skill_select_holder label { width: auto; margin-right: 20px; font-family: Arial, Helvetica, sans-serif; color: #333; font-size: 14px; float: left; }
+.olddesign .skill_select_holder select { float: left; width: 200px; border: 1px solid #ccc; height: 20px; }
+.olddesign .skill_cont { float: left; width: 100%; margin-top: 20px; }
+.olddesign .skill_cont_heading { float: left; font-family: Arial, Helvetica, sans-serif; color: #333; font-size: 14px; width: 27%; padding-top: 1px; }
+.olddesign .skill_cont_title { float: left; width: 53%; padding-top: 1px; margin-left: 156px; }
+.olddesign .skill_cont_title img { float: left; margin-right: 5px; }
+.olddesign .skill_cont_title label { float: left; font-family: Arial, Helvetica, sans-serif; color: #6fac1e; font-size: 14px; width: 80%; }
+.olddesign .skill_cont_price, .olddesign .skill_cont_price_heading { float: left; font-family: Arial, Helvetica, sans-serif; color: #333; font-size: 14px; width: 10%; padding-top: 1px; }
+.olddesign .label_heading { color: #81C22B; font-size: 15px; font-weight: bold; padding-left: 25px; font-family: Arial, Helvetica, sans-serif; }
+.olddesign .link_view_list_new { float: left; width: 101px; }
+.olddesign .link_view_list_new a { float: left; width: 101px; background: url(/images/view_list_bg.png) no-repeat; height: 30px; line-height: 30px; text-align: center; font-size: 15px; font-family: Arial,Helvetica,sans-serif; color: #FFFFFF !important; text-decoration: none; font-weight: bold; }
+.olddesign .assessment_huading { margin-right: 20px; font-family: Arial, Helvetica, sans-serif; color: #333; font-size: 14px; float: left; line-height: 30px; }
+.olddesign .skill_cont_rool_text { float: left; width: 75%; padding-top: 1px; }
+.olddesign .skill_cont_checkbox { float: left; width: 5%; padding-top: 1px; }
+.olddesign .skill_cont_checkbox input { float: left; }
+.olddesign .profile_heading { float: left; font-family: Arial, Helvetica, sans-serif; color: #333; width: 70%; font-size: 15px; font-weight: bold; }
+.olddesign .view_sample_link { float: left; font-family: Arial, Helvetica, sans-serif; width: 25%; font-size: 12px; font-weight: bold; }
+.olddesign .view_sample_link a { color: #88BB33 !important; text-decoration: underline; }
+.olddesign .view_sample_link a:hover { text-decoration: none; }
+.olddesign .prduces_text { float: left; font-family: Arial, Helvetica, sans-serif; color: #333; width: 100%; margin-top: 10px; font-size: 14px; }
+.olddesign .confirm_applicant_holder { float: left; width: 96%; background: url(images/application_main_bg.png) repeat-x; min-height: 100px; padding: 3% 2%; border-top: 1px solid #fff; border-bottom: 1px solid #ccc; }
+.olddesign .confirm_applicant_holder_sep { border-bottom: none !important; }
+.olddesign .confirm_heading_holder { float: left; width: 50%; font-family: Arial, Helvetica, sans-serif; color: #333; font-size: 15px; font-weight: bold; }
+.olddesign .indicate_text_holder { float: left; width: 50%; text-align: right; font-family: Arial, Helvetica, sans-serif; color: #333; font-size: 14px; }
+.olddesign .indicate_text_new_holder { float: left; width: 42%; margin-top: 20px; font-family: Arial, Helvetica, sans-serif; color: #333; font-size: 14px; }
+.olddesign .input_skill_holder { float: left; width: 100%; }
+.olddesign .input_small_skill_holder { float: left; margin-top: 20px; width: 32%; margin-right: 1%; }
+.olddesign .input_small_skill_holder label { float: left; width: 100%; font-family: Arial, Helvetica, sans-serif; color: #333; font-size: 14px; }
+.olddesign .input_small_skill_holder input { float: left; background: url(images/skill_test_input_small_bg.png) no-repeat; width: 184px; height: 28px; font-family: Arial, Helvetica, sans-serif; color: #333; font-size: 14px; padding: 3px 5px; border: 0; }
+.olddesign .input_larg_skill_holder { float: left; margin-top: 20px; width: 322px; margin-right: 1%; }
+.olddesign .input_larg_skill_holder label { float: left; width: 100%; font-family: Arial, Helvetica, sans-serif; color: #333; font-size: 14px; }
+.olddesign .input_larg_skill_holder input { float: left; background: url(images/skill_test_input_larg_bg.png) no-repeat; width: 313px; height: 28px; font-family: Arial, Helvetica, sans-serif; color: #333; font-size: 14px; padding: 3px 5px; border: 0; }
+.olddesign .mTNone { margin-top: 0 !important; }
+.olddesign .options_heading_new { font-size: 14px !important; font-weight: normal !important; line-height: 45px; margin-bottom: 0 !important; }
+.olddesign .edit_btn_holder { float: right; width: auto; }
+.olddesign .edit_btn_holder a { background: url(/images/edit_new_icon.png) no-repeat; padding-left: 20px; float: left; width: auto; color: #6fac1e; font-family: Arial, Helvetica, sans-serif; text-decoration: none; height: 16px; }
+.olddesign .mtop20 { margin-top: 20px !important; }
+.olddesign .right_content_holder, .olddesign .left_content_holder { float: left; width: 25%; font-family: Arial, Helvetica, sans-serif; color: #333; font-size: 14px; }
+.olddesign .right_content_holder { width: 60% !important; }
+.olddesign .skill_new_cont_price, .olddesign .skill_new_cont_price_heading { color: #333333; float: right; font-family: Arial, Helvetica, sans-serif; font-size: 14px; padding-top: 1px; width: 10%; }
+.olddesign .total_text_holder { float: left; width: 92%; font-size: 18px; color: #000; text-align: right; border-top: 1px dashed #ccc; border-bottom: 1px dashed #ccc; background: url(/images/testing_option_heading.png) repeat-x; height: 47px; line-height: 47px; font-weight: bold; font-family: Arial, Helvetica, sans-serif; padding-left: 4%; padding-right: 4%; }
+.olddesign .skill_popup_holder { left: 50%; margin-left: -390px; position: absolute; top: 50px; width: 779px; }
+.olddesign .skill_popup_top_holder { float: left; width: 779px; background: url(/images/skill_top_popup.png) no-repeat; height: 11px; }
+.olddesign .skill_popup_mid_holder { background: url(/images/skill_mid_popup.png) repeat-y scroll 0 0 transparent; float: left; height: auto; padding: 0 2px; width: 774px; }
+.olddesign .skill_popup_bot_holder { float: left; width: 779px; background: url(/images/skill_bot_popup.png) no-repeat; height: 13px; }
+.olddesign .skill_popup_heading { border-bottom: 1px solid #CCCCCC; float: left; width: 99.5%; }
+.olddesign .skill_popup_heading h1 { color: #88BB33; float: left; font-family: Arial, Helvetica, sans-serif; font-size: 24px; margin-left: 15px; padding-bottom: 20px; padding-top: 10px; width: 60%; }
+.olddesign .skill_popup_heading img { float: right; margin-right: 10px; margin-top: 16px; }
+.olddesign .popup_heading_bg { float: left; width: 99.5%; border-top: 1px solid #fff; border-bottom: 1px solid #ccc; background: url(/images/popup_heading_bg.png) repeat-x; height: 44px; line-height: 42px; font-size: 16px; font-weight: bold; color: #333; font-family: Arial, Helvetica, sans-serif; }
+.olddesign .popup_name { float: left; width: 150px; padding-top: 1px; margin-left: 10px; }
+.olddesign .popup_description { float: left; margin-left: 10px; width: 380px; padding-top: 1px; }
+.olddesign .popup_total, .olddesign .popup_price { float: left; width: 80px; padding-top: 1px; margin-left: 10px; }
+.olddesign .popup_total { width: 102px; }
+.olddesign .popup_content_bg { float: left; width: 102.5%; font-size: 14px; color: #333; font-family: Arial, Helvetica, sans-serif; background: url(/images/bdr_bg.png) repeat-y; border-bottom: 1px solid #ccc; }
+.olddesign .padding_popup { padding: 10px 0; }
+.olddesign .search_skill { background: url("/images/select-bg.png") no-repeat scroll 10px top transparent; float: right; margin: 0 10px 0 0; overflow: hidden; padding: 0 0 0 10px; position: relative; width: 159px; }
+.olddesign .serch4 { background: url("/images/select-bg_big.png") no-repeat scroll 10px top transparent; float: left; height: 40px; margin: 0 10px 0 0; overflow: hidden; padding: 0 0 0 10px; position: relative; width: 273px; }
+.olddesign .serch4 input[type="text"] { background: none repeat scroll 0 0 transparent; border: 0 solid #FF0000; color: #000000; font: 11px/14px Arial, Helvetica, sans-serif; margin: 3px; padding: 9px 0 9px 6px; width: 260px; }
+.olddesign .serch4 select { left: 10px; opacity: 0; position: absolute; top: 7px; width: 160px; }
+.olddesign .popup_total a:hover { color: #88BB33; }
+.olddesign .input_small_skill_holder label.error { display: none !important; }
+.olddesign .input_larg_skill_holder label.error { display: none !important; }
