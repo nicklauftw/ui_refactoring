@@ -1,0 +1,104 @@
+
+.green {
+	color: #4bcc00;
+}
+
+.tooltip{
+    display: inline;
+    position: relative;
+}
+
+/* container for both the form and order summary*/
+.main { 
+	width: 960px;
+	margin: 40px auto;
+	font: 14px/1.4 sans-serif;
+	overflow: auto;
+}
+
+.form-container {
+	width: 590px;
+	float: left;
+	border: 1px ;
+}
+
+.form-container a {
+	color: #4bcc00;
+	text-decoration: none;
+}
+
+.form-container form {
+	padding: 10px;
+	border: 1px solid #ddd;	
+}
+
+.form-container form label, .form-container form input, .form-container form select {
+	padding: 4px 2px;
+}
+
+.form-container form label {
+	width: 230px;
+	padding-right: 10px;
+	text-align: right;	
+	display: inline-block;
+	float: left;
+}
+
+.form-container a.cancel-link {
+	font-size: 12px;
+	color: red;
+	text-decoration: none;
+	display: block;
+	margin-top: 20px;
+}
+
+.form-container form input[type="submit"] {
+	width: auto;
+	font-size: 16px;
+	padding: 10px 30px;
+	background: #F76B00;
+	opacity: 0.9;
+	color: #fff;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.form-container form input[type="submit"]:hover {
+	background: #F76B00;
+	opacity: 1;
+}
+
+.form-container form input, .form-container form select  {
+	width: 200px;
+	outline: none;	
+	font-size: 12px;	
+	border-radius: 0;
+	border: 1px solid #ddd;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+
+.form-container ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.form-container li {
+	position: relative;
+	padding: 10px 0;
+}
+
+.form-container .submit-wrapper {
+	margin: 20px 0 0 400px;
+}
+
+/* Side table of order summary */
+aside#order_summary {
+	background: #f2f2f2;
+	float: left;
+	width: 300px;
+	margin-left: 40px;
+	padding: 10px;
+}
