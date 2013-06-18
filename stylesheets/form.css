@@ -49,7 +49,7 @@
 	color: red;
 	text-decoration: none;
 	display: block;
-	margin-top: 20px;
+	margin-top: 10px;
 }
 
 .form-container form input[type="submit"] {
@@ -91,7 +91,8 @@
 }
 
 .form-container .submit-wrapper {
-	margin: 20px 0 0 400px;
+	margin: 20px 0 0 380px;
+	text-align: center;
 }
 
 /* Side table of order summary */
