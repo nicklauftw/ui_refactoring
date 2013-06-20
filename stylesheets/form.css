@@ -103,3 +103,48 @@ aside#order_summary {
 	margin-left: 40px;
 	padding: 10px;
 }
+
+/* Responsive */
+/*  
+1em = 10px
+*/
+@media only screen and (max-width: 78em) {
+	.main {
+		width: 100%;
+		padding: 2% 2%;
+		box-sizing: border-box;
+		-moz-box-sizing: border-box;
+	}
+
+	aside#order_summary {
+		width: 100%;
+		margin: 2em 0;
+	}
+
+	.form-container, aside#order_summary {
+		float: none;
+		width: auto;
+	}
+
+	.form-container form label {
+		width: auto;
+		padding-right: 0;
+		text-align: left;	
+		display: block;
+		float: none;
+	}
+
+	.form-container form input, .form-container form select {
+		width: 100%;
+	}
+
+	.form-container .submit-wrapper {
+		margin: 2em 0;
+		text-align: center;
+	}
+
+	.form-container form input[type="submit"] {
+		width: 100%;
+		padding: 1em;
+	}
+}
