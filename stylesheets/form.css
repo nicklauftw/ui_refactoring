@@ -108,7 +108,7 @@ aside#order_summary {
 /*  
 1em = 10px
 */
-@media only screen and (max-width: 78em) {
+@media only screen and (max-width: 48em) {
 	.main {
 		width: 100%;
 		padding: 2% 2%;
